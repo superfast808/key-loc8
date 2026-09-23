@@ -13,10 +13,10 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-# Leave only runtime dependencies for the final image.
-RUN npm prune --omit=dev
-
-
+# Keep build/dev packages in the runtime image for now. The current server bundle
+# still contains development-only Vite references even though they are not used
+# in production, so pruning devDependencies causes Node's ESM resolver to abort
+# at startup. We can slim this later once the dev-server code is split out.
 FROM node:20-bookworm-slim AS runtime
 
 WORKDIR /app
