@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>keylocate - Professional Key Management System</title>
+    <meta name="description" content="Professional key management and location tracking for businesses. Complete audit trails, real-time tracking, and multi-location support for estate agents, car dealers, and facilities management." />
+    <meta property="og:title" content="keylocate - Professional Key Management System" />
+    <meta property="og:description" content="Professional key management and location tracking for businesses. Complete audit trails, real-time tracking, and multi-location support." />
+    <meta property="og:type" content="website" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="keylocate" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <link rel="apple-touch-icon" href="/icon-192.svg" />
+    <script>
+      // Emergency cache buster — runs before anything else loads.
+      // Unregisters any old service workers and clears all caches.
+      // If we found any old caches/SWs, hard-reload once to get fresh assets.
+      (function () {
+        try {
+          if (!('serviceWorker' in navigator)) return;
+          var RELOAD_KEY = 'keylocate_sw_cleaned_v4';
+          Promise.all([
+            navigator.serviceWorker.getRegistrations(),
+            (typeof caches !== 'undefined') ? caches.keys() : Promise.resolve([])
+          ]).then(function (results) {
+            var regs = results[0] || [];
+            var cacheKeys = results[1] || [];
+            if (regs.length === 0 && cacheKeys.length === 0) return;
+            return Promise.all([
+              Promise.all(regs.map(function (r) { return r.unregister(); })),
+              Promise.all(cacheKeys.map(function (k) { return caches.delete(k); }))
+            ]).then(function () {
+              if (!localStorage.getItem(RELOAD_KEY)) {
+                localStorage.setItem(RELOAD_KEY, '1');
+                window.location.reload();
+              }
+            });
+          }).catch(function () { /* non-fatal */ });
+        } catch (e) { /* non-fatal */ }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+  </body>
+</html>

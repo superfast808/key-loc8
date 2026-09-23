@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "SfFtUi8-OFK2-L5pk2AKp"
+uri = "file://exports/copy_report_templates_to_prod.sql.txt"
+type = "text"
+title = "Copy report templates to production (Assured 24) — v3 (fixed)"

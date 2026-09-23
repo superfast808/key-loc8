@@ -1,0 +1,3 @@
+- [Key-bunch base64 blobs](key-bunch-image-blobs.md) — never return imageUrl/documentUrl in list/history queries; use slim column set + hasImage flags or payloads balloon to 100+ MB.
+- [Brevo email sending](brevo-email-sending.md) — Brevo accepts then async-rejects unverified senders; "Sent" log ≠ delivered, check Brevo events API.
+- [Session lifecycle](session-lifecycle.md) — rely on the 24-hour session TTL; never routinely purge all active sessions on a clock.

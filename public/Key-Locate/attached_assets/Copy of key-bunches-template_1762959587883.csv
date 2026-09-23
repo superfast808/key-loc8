@@ -1,0 +1,674 @@
+identifier,type,currentTag,nfcSerial,locationName,status,keyCount,fobCount,keyDescription,address,notes
+A24-002,Day Shift,,,No Keys Held,Present,0,0,,"Wellpark, 120 Sydney Street, Glasgow, G31 1JF",Code to enter Premises
+A24-002,Night Shift,,,No Keys Held,Present,0,0,,"Wellpark, 120 Sydney Street, Glasgow, G31 1JF",Code to enter Premises
+A24-004,Day Shift,,,Van 1,Present,4,0,,"4 Sutherland Avenue, Glasgow, G41 4JH",
+A24-004,Night Shift,,,Van 2,Present,4,0,,"4 Sutherland Avenue, Glasgow, G41 4JH",
+A24-007,Day Shift,,,Van 1,Present,3,0,,"Scotland Cat Centre, Cardyke Farm, Kirkintilloch, Glasgow, G66 5LD",
+A24-007,Night Shift,,,No Keys Held,Present,0,0,,"Scotland Cat Centre, Cardyke Farm, Kirkintilloch, Glasgow, G66 5LD",
+A24-014,Day Shift,,,Van 1,Present,4,0,,"Shred-It, 18 Marlow Street Glasgow, G41 1LR",
+A24-014,Night Shift,,,Van 2,Present,4,0,,"Shred-It, 18 Marlow Street Glasgow, G41 1LR",
+A24-015,Day Shift,,,Van 1,Present,6,0,,"Airbles House, Airbles Road, Motherwell ML1 3AT",
+A24-015,Night Shift,,,Van 2,Present,6,0,,"Airbles House, Airbles Road, Motherwell ML1 3AT",
+A24-017,Day Shift,,,Van 1,Present,3,1,,"Maryhill Burgh Halls, 10-24 Gairbraid Avenue, Glasgow, G20 8YE",
+A24-017,Night Shift,,,Van 2,Present,3,1,,"Maryhill Burgh Halls, 10-24 Gairbraid Avenue, Glasgow, G20 8YE",
+A24-023,Day Shift,,,Van 1,Present,1,2,,"Coughtrie International Ltd, 69 - 71 Montrose Avenue, Hillington, Glasgow, G52 4LA",
+A24-023,Night Shift,,,Van 2,Present,1,2,,"Coughtrie International Ltd, 69 - 71 Montrose Avenue, Hillington, Glasgow, G52 4LA",
+A24-030,Day Shift,,,Van 1,Present,1,1,,"Teknek, River Drive, Inchinnan, PA4 9RT",
+A24-030,Night Shift,,,Van 2,Present,1,1,,"Teknek, River Drive, Inchinnan, PA4 9RT",
+A24-031,Day Shift,,,Van 1,Present,6,1,,"Constantine Ltd, North Caldeen Road, Coatbridge, ML5 4EF",
+A24-031,Night Shift,,,Van 2,Present,6,1,,"Constantine Ltd, North Caldeen Road, Coatbridge, ML5 4EF",
+A24-032,Day Shift,,,Van 1,Present,1,0,,"32 Hamilton Drive, Glasgow, G12 8EE",
+A24-032,Night Shift,,,Van 2,Present,1,0,,"32 Hamilton Drive, Glasgow, G12 8EE",
+A24-033,Day Shift,,,Van 1,Present,1,0,,"1 Drymen Wynd, Bearsden, Glasgow, G61 2UB",
+A24-033,Night Shift,,,Van 2,Present,1,0,,"1 Drymen Wynd, Bearsden, Glasgow, G61 2UB",
+A24-034,Day Shift,,,Van 1,Present,1,0,,"23 Craigmillar Avenue, Milngavie,  Glasgow, G62 8AX",
+A24-034,Night Shift,,,Van 2,Present,1,0,,"23 Craigmillar Avenue, Milngavie,  Glasgow, G62 8AX",
+A24-037,Day Shift,,,Van 1,Present,2,1,,"Blue Square Business Centre, 272-274 Bath Street, Glasgow, G2 4JR",
+A24-037,Night Shift,,,Van 2,Present,2,1,,"Blue Square Business Centre, 272-274 Bath Street, Glasgow, G2 4JR",
+A24-042,Day Shift,,,Van 1,Present,2,2,,"Right There, 15 & 17 Dava Street, Glasgow, G51 2JA",
+A24-042,Night Shift,,,Van 2,Present,2,2,,"Right There, 15 & 17 Dava Street, Glasgow, G51 2JA",
+A24-043,Day Shift,,,Van 1,Present,2,2,,"Robertson Trust, 152 Bath Street, Glasgow, G2 4TB",
+A24-043,Night Shift,,,Van 2,Present,2,2,,"Robertson Trust, 152 Bath Street, Glasgow, G2 4TB",
+A24-043,Lock Up,,,Van 3,Present,2,2,,"Robertson Trust, 152 Bath Street, Glasgow, G2 4TB",
+A24-050,Day Shift,,,Van 1,Present,7,0,,"Argyle House, 209 Govan Road, Glasgow, G51 1HJ",
+A24-050,Night Shift,,,Van 2,Present,7,1,,"Argyle House, 209 Govan Road, Glasgow, G51 1HJ",
+A24-051,Day Shift,,,Van 1,Present,0,0,,"Kintyre House, 209 Govan Road, Glasgow, G51 1HJ",Keys on A24-050
+A24-051,Night Shift,,,Van 2,Present,0,0,,"Kintyre House, 209 Govan Road, Glasgow, G51 1HJ",Keys on A24-050
+A24-052,Day Shift,,,Van 1,Present,4,1,,"Pavilion 4, Clyde Marine Recrutement, 355 Govan Road, Glasgow, G51 2SE",
+A24-052,Night Shift,,,Van 2,Present,4,1,,"Pavilion 4, Clyde Marine Recrutement, 355 Govan Road, Glasgow, G51 2SE",
+A24-055,Day Shift,,,Van 1,Present,0,1,,"Turning Point (Scotland) 1 Sandyford Road, Paisley, PA3 4HD",
+A24-055,Night Shift,,,Van 2,Present,1,1,,"Turning Point (Scotland) 1 Sandyford Road, Paisley, PA3 4HD",
+A24-057,Day Shift,,,Van 1,Present,3,2,,"490 Argyle Street, Glasgow, G2 8AL",
+A24-057,Night Shift,,,Van 2,Present,3,2,,"490 Argyle Street, Glasgow, G2 8AL",
+A24-058,Day Shift,,,Van 1,Present,1,0,,"31 Thorn Road, Glasgow, Bearsden, G61 4BS",
+A24-058,Night Shift,,,Van 2,Present,1,0,,"31 Thorn Road, Glasgow, Bearsden, G61 4BS",
+A24-059,Day Shift,,,Van 1,Present,2,0,,"Soapbox Design, 614 Eglinton St, Glasgow, G5 9RR",
+A24-059,Night Shift,,,Van 2,Present,2,0,,"Soapbox Design, 614 Eglinton St, Glasgow, G5 9RR",
+A24-061,Day Shift,,,Van 1,Present,6,0,,"Decourcy's Arcade, 5 Cresswell Lane, Glasgow, G12 8AA",
+A24-061,Night Shift,,,Van 2,Present,6,0,,"Decourcy's Arcade, 5 Cresswell Lane, Glasgow, G12 8AA",
+A24-064,Day Shift,,,Van 1,Present,5,1,,"Cerebral Palsy Scotland, 10 High Craighall Road, G4 9UD",
+A24-064,Night Shift,,,Van 2,Present,5,1,,"Cerebral Palsy Scotland, 10 High Craighall Road, G4 9UD",
+A24-066,Day Shift,,,Van 1,Present,5,2,,"Tomo Technology, unit 1-1, 17 Brand Place, Glasgow, G51 1DR",
+A24-066,Night Shift,,,Van 2,Present,5,2,,"Tomo Technology, unit 1-1, 17 Brand Place, Glasgow, G51 1DR",
+A24-067,Day Shift,,,Van 1,Present,4,3,,"1 Robroyston Oval, Rowan House, Glasgow, G33 1AP",
+A24-067,Night Shift,,,Van 2,Present,3,0,,"1 Robroyston Oval, Rowan House, Glasgow, G33 1AP",
+A24-067,Lock Up,,,Van 3,Present,1,3,,"1 Robroyston Oval, Rowan House, Glasgow, G33 1AP",
+A24-068,Day Shift,,,Van 1,Present,4,0,,"Morrison Construction, Rowan House, 1 Robroyston Oval, Glasgow, G33 1AP",
+A24-068,Night Shift,,,Van 2,Present,4,1,,"Morrison Construction, Rowan House, 1 Robroyston Oval, Glasgow, G33 1AP",
+A24-070,Day Shift,,,Van 1,Present,2,1,,"Thomson Pavilion, Todd Campus, Glasgow, G20 0XA",
+A24-070,Night Shift,,,Van 2,Present,2,1,,"Thomson Pavilion, Todd Campus, Glasgow, G20 0XA",
+A24-070,Lock Up,,,Van 3,Present,2,2,,"Thomson Pavilion, Todd Campus, Glasgow, G20 0XA",
+A24-073,Day Shift,,,Van 1,Present,2,1,,"Scottish Leather, 273-289 Dunn St, Glasgow, G40 3EA",
+A24-073,Night Shift,,,Van 2,Present,2,1,,"Scottish Leather, 273-289 Dunn St, Glasgow, G40 3EA",
+A24-075,Day Shift,,,Van 1,Present,1,2,,"18 Woodside Crescent, Glasgow, G3 7UL",
+A24-075,Night Shift,,,Van 2,Present,1,2,,"18 Woodside Crescent, Glasgow, G3 7UL",
+A24-076,Day Shift,,,Van 1,Present,2,2,,"19 Woodside Crescent, Glasgow, G3 7UL",
+A24-076,Night Shift,,,Van 2,Present,2,2,,"19 Woodside Crescent, Glasgow, G3 7UL",
+A24-077,Day Shift,,,Van 1,Present,2,0,,"Flat 1, 12 Kingsborough Gardens, Glasgow, G12 9QB",
+A24-077,Night Shift,,,Van 2,Present,2,0,,"Flat 1, 12 Kingsborough Gardens, Glasgow, G12 9QB",
+A24-078,Day Shift,,,Van 1,Present,4,1,,"302 St Vincent St, Glasgow G2 5RU",
+A24-078,Night Shift,,,Van 2,Present,4,1,,"302 St Vincent St, Glasgow G2 5RU",
+A24-080,Day Shift,,,Van 1,Present,7,1,,"Voidoid Ltd, Unit 1, 54 Helen Street, Glasgow, G51 3HQ",
+A24-080,Night Shift,,,Van 2,Present,7,1,,"Voidoid Ltd, Unit 1, 54 Helen Street, Glasgow, G51 3HQ",
+A24-082,Day Shift,,,Van 1,Present,1,1,,"Gavin's Mill Shop, 3 Gavin's Mill Rd, Milngavie, Glasgow G62 6NB",
+A24-082,Night Shift,,,Van 2,Present,1,1,,"Gavin's Mill Shop, 3 Gavin's Mill Rd, Milngavie, Glasgow G62 6NB",
+A24-085,Day Shift,,,Van 1,Present,1,0,,"Reprocell, Thomson Pavilion, Todd Campus, Glasgow, G20 0XA",
+A24-085,Night Shift,,,Van 2,Present,1,0,,"Reprocell, Thomson Pavilion, Todd Campus, Glasgow, G20 0XA",
+A24-088,Day Shift,,,Van 1,Present,4,0,,"Northcote Surgery, 2 Victoria Gardens, Glasgow, G12 9LD",
+A24-088,Night Shift,,,Van 2,Present,4,0,,"Northcote Surgery, 2 Victoria Gardens, Glasgow, G12 9LD",
+A24-091,Day Shift,,,Van 1,Present,2,1,,"Telford Pavilion, Todd Campus, Glasgow, G20 0X",
+A24-091,Night Shift,,,Van 2,Present,3,2,,"Telford Pavilion, Todd Campus, Glasgow, G20 0X",
+A24-091,Lock Up,,,Van 2,Present,2,1,,"Telford Pavilion, Todd Campus, Glasgow, G20 0X",
+A24-092,Day Shift,,,Van 1,Present,1,1,,"Nevis Capital, 4th Floor, 221 West George Street, Glasgow, G2 2ND",
+A24-092,Night Shift,,,Van 2,Present,1,2,,"Nevis Capital, 4th Floor, 221 West George Street, Glasgow, G2 2ND",
+A24-093,Day Shift,,,Van 1,Present,2,0,,"189 Westland Drive, Glasgow, G14 9JQ",
+A24-093,Night Shift,,,Van 2,Present,2,0,,"189 Westland Drive, Glasgow, G14 9JQ",
+A24-097,Day Shift,,,Van 1,Present,3,0,,"68 Hamilton Drive, Glasgow, G12 8EE",
+A24-097,Night Shift,,,Van 2,Present,3,0,,"68 Hamilton Drive, Glasgow, G12 8EE",
+A24-103,Day Shift,,,Van 1,Present,1,0,,"OFGEM, 32 Albion Street, Glasgow, G1 1LH",
+A24-103,Night Shift,,,Van 2,Present,1,1,,"OFGEM, 32 Albion Street, Glasgow, G1 1LH",
+A24-105,Day Shift,,,Van 1,Present,7,1,,"Ireland Alloys, Craighead Works, Whistleberry Road, Hamilton, ML3 0HP",
+A24-105,Night Shift,,,Van 2,Present,7,1,,"Ireland Alloys, Craighead Works, Whistleberry Road, Hamilton, ML3 0HP",
+A24-109,Day Shift,,,Van 1,Present,5,0,,"Maritime House (ex Braid Logistics), 157 Woodville St, Glasgow G51 2RQ",
+A24-109,Night Shift,,,Van 2,Present,6,0,,"Maritime House (ex Braid Logistics), 157 Woodville St, Glasgow G51 2RQ",
+A24-110,Day Shift,,,No Keys Held,Present,0,0,,"Glasgow Brickyard, 512 Blochairn Rd, Glasgow G21 2DZ",
+A24-110,Night Shift,,,No Keys Held,Present,0,0,,"Glasgow Brickyard, 512 Blochairn Rd, Glasgow G21 2DZ",
+A24-111,Day Shift,,,No Keys Held,Present,0,0,,"Tarmac Uddingston, Greenelms Trading Est, Grays Road, Glasgow, G71 6ET",
+A24-111,Night Shift,,,Van 2,Present,1,0,,"Tarmac Uddingston, Greenelms Trading Est, Grays Road, Glasgow, G71 6ET",
+A24-117,Day Shift,,,Van 1,Present,2,0,,"R-Biopharm Rhône, Block 10 Todd Campus, West of Scotland Science Park, G20 0XA",
+A24-117,Night Shift,,,Van 2,Present,2,0,,"R-Biopharm Rhône, Block 10 Todd Campus, West of Scotland Science Park, G20 0XA",
+A24-118,Day Shift,,,Van 1,Present,1,2,,"Scottish Ballet, 25 Albert Drive, Glasgow, G41 2PE",
+A24-118,Night Shift,,,Van 2,Present,1,2,,"Scottish Ballet, 25 Albert Drive, Glasgow, G41 2PE",
+A24-119,Day Shift,,,No Keys Held,Present,0,0,,"Collagen Solutions, 3 Robroyston Oval, Pavilion 1, Robroyston, Glasgow G33 1AP",
+A24-119,Night Shift,,,No Keys Held,Present,0,0,,"Collagen Solutions, 3 Robroyston Oval, Pavilion 1, Robroyston, Glasgow G33 1AP",
+A24-120,Day Shift,,,No Keys Held,Present,0,0,,"5 Robroyston Oval Pavilion 2, Robroyston, Glasgow G33 1AP",
+A24-120,Night Shift,,,No Keys Held,Present,0,0,,"5 Robroyston Oval Pavilion 2, Robroyston, Glasgow G33 1AP",
+A24-121,Day Shift,,,No Keys Held,Present,0,0,,"7 Robroyston Oval, Orion House, Robroyston, Glasgow G33 1AP",
+A24-121,Night Shift,,,No Keys Held,Present,0,0,,"7 Robroyston Oval, Orion House, Robroyston, Glasgow G33 1AP",
+A24-123,Day Shift,,,Van 1,Present,4,2,,"Eastpark in Scotland, 1092 Maryhill Road, Glasgow, G20 9TD",
+A24-123,Night Shift,,,Van 2,Present,5,2,,"Eastpark in Scotland, 1092 Maryhill Road, Glasgow, G20 9TD",
+A24-124,Day Shift,,,Van 1,Present,2,0,,"Healthy & Happy, 18 Farmeloan Road, Rutherglen, G73 1DL",
+A24-124,Night Shift,,,Van 2,Present,1,0,,"Healthy & Happy, 18 Farmeloan Road, Rutherglen, G73 1DL",
+A24-126,Day Shift,,,Van 1,Present,5,1,,"The Beacon, 176 St Vincent Street, Glasgow, G2 5SG",
+A24-126,Night Shift,,,Van 2,Present,5,1,,"The Beacon, 176 St Vincent Street, Glasgow, G2 5SG",
+A24-127,Day Shift,,,Van 1,Present,1,0,,"Alan House, 25 Bothwell Street , Glasgow, G2 6NL",
+A24-127,Night Shift,,,Van 2,Present,2,1,,"Alan House, 25 Bothwell Street , Glasgow, G2 6NL",
+A24-128,Day Shift,,,Van 1,Present,0,1,,"145 St Vincent St, Glasgow G2 5JF",
+A24-128,Night Shift,,,Van 2,Present,1,1,,"145 St Vincent St, Glasgow G2 5JF",
+A24-129,Day Shift,,,No Keys Held,Present,0,0,,"Festival House, 177 West George St, Glasgow G2 2LB",
+A24-129,Night Shift,,,No Keys Held,Present,0,0,,"Festival House, 177 West George St, Glasgow G2 2LB",
+A24-130,Day Shift,,,Van 1,Present,1,0,,"The Gatehouse, 201 West George St, Glasgow, G2 2LW",
+A24-130,Night Shift,,,Van 2,Present,2,1,,"The Gatehouse, 201 West George St, Glasgow, G2 2LW",
+A24-132,Day Shift,,,Van 1,Present,3,1,,"The Mortgage Lender, 50 Waterloo Street, Glasgow G2 6HQ",
+A24-132,Night Shift,,,Van 2,Present,3,2,,"The Mortgage Lender, 50 Waterloo Street, Glasgow G2 6HQ",
+A24-134,Day Shift,,,No Keys Held,Present,0,0,,Routes To Work South (Pest Control Contract),
+A24-134,Night Shift,,,No Keys Held,Present,0,0,,Routes To Work South (Pest Control Contract),
+A24-135,Day Shift,,,Van 1,Present,0,3,,"Flemington House, 110 Flemington Street, Springburn, Glasgow G21 4TD",
+A24-135,Night Shift,,,Van 2,Present,1,2,,"Flemington House, 110 Flemington Street, Springburn, Glasgow G21 4TD",
+A24-138,Day Shift,,,Van 1,Present,1,1,,"100 Berkeley St, Glasgow, G3 7HU",
+A24-138,Night Shift,,,Van 2,Present,1,1,,"100 Berkeley St, Glasgow, G3 7HU",
+A24-140,Day Shift,,,Van 1,Present,2,1,,"Maryhill Housing Association, 45 Garrioch Road, Glasgow, G20 8RG",
+A24-140,Night Shift,,,Van 2,Present,3,1,,"Maryhill Housing Association, 45 Garrioch Road, Glasgow, G20 8RG",
+A24-141,Day Shift,,,Van 1,Present,1,1,,"23 Nelson Mandela Place, Glasgow, G2 1QY",
+A24-141,Night Shift,,,No Keys Held,Present,0,0,,"23 Nelson Mandela Place, Glasgow, G2 1QY",
+A24-142,Day Shift,,,No Keys Held,Present,0,0,,"4 Glassford Street, Glasgow, G1 5RY",
+A24-142,Night Shift,,,No Keys Held,Present,0,0,,"4 Glassford Street, Glasgow, G1 5RY",
+A24-143,Day Shift,,,Van 1,Present,1,1,,"The Beresford Building, 460 Sauchiehall St, Glasgow G2 3JU",
+A24-143,Night Shift,,,Van 2,Present,2,1,,"The Beresford Building, 460 Sauchiehall St, Glasgow G2 3JU",
+A24-148,Day Shift,,,Van 1,Present,2,1,,"Mews Building, 19 Woodside Crescent, Glasgow, G3 7UL","(Annexe building in back carpark), Entrance through the gate from Woodside Terrace Lane, next to Scottish Motor Services, 43-49 Woodlands Rd, Kelvingrove, Glasgow G3 6ED  148)"
+A24-148,Night Shift,,,Van 2,Present,3,0,,"Mews Building, 19 Woodside Crescent, Glasgow, G3 7UL","(Annexe building in back carpark), Entrance through the gate from Woodside Terrace Lane, next to Scottish Motor Services, 43-49 Woodlands Rd, Kelvingrove, Glasgow G3 6ED "
+A24-151,Day Shift,,,Van 1,Present,1,1,,"Challenge House, 29 Canal St, Glasgow, G40AD",
+A24-151,Night Shift,,,Van 2,Present,1,1,,"Challenge House, 29 Canal St, Glasgow, G40AD",
+A24-153,Day Shift,,,Van 1,Present,4,0,,"The Pyramid At Anderston, 759 Argle Street, G3 8DS",
+A24-153,Night Shift,,,Van 2,Present,4,0,,"The Pyramid At Anderston, 759 Argle Street, G3 8DS",
+A24-158,Day Shift,,,Van 1,Present,1,2,,"Jewish Care Scotland, The Walton Community Care Centre, May Terrace, Glasgow G46 6LD",
+A24-158,Night Shift,,,Van 2,Present,1,1,,"Jewish Care Scotland, The Walton Community Care Centre, May Terrace, Glasgow G46 6LD",
+A24-158,Lock Up,,,Van 3,Present,1,2,,"Jewish Care Scotland, The Walton Community Care Centre, May Terrace, Glasgow G46 6LD",
+A24-159,Day Shift,,,Van 1,Present,1,1,,"57 Glasgow Road, Blanefield, G63 9JD",
+A24-159,Night Shift,,,Van 2,Present,1,0,,"57 Glasgow Road, Blanefield, G63 9JD",
+A24-160,Day Shift,,,Van 1,Present,1,0,,"Cambridge House, 8 Cambridge Street, Glasgow, G2 3DZ",
+A24-160,Night Shift,,,Van 2,Present,1,0,,"Cambridge House, 8 Cambridge Street, Glasgow, G2 3DZ",
+A24-161,Day Shift,,,Van 1,Present,6,1,,"RSPB, Largs Road, Lochwinnoch, PA12 4JF",
+A24-161,Night Shift,,,Van 2,Present,6,1,,"RSPB, Largs Road, Lochwinnoch, PA12 4JF",
+A24-162,Day Shift,,,Van 1,Present,2,0,,"MCU Lesmahagow, Unit 1, Milton Industrial Estate, Teiglum Road, Lesmahagow, ML11 0JN",
+A24-162,Night Shift,,,Van 2,Present,2,0,,"MCU Lesmahagow, Unit 1, Milton Industrial Estate, Teiglum Road, Lesmahagow, ML11 0JN",
+A24-164,Day Shift,,,Van 1,Present,3,0,,"IODS Pipeclad, 2 Kelvin Park South, East Kilbride, Glasgow, G75 0RH",
+A24-164,Night Shift,,,Van 2,Present,3,1,,"IODS Pipeclad, 2 Kelvin Park South, East Kilbride, Glasgow, G75 0RH",
+A24-165,Day Shift,,,Van 1,Present,2,1,,"IODS Pipeclad, 6 Singer Rd, Kelvin Industrial Estate, East Kilbride, G75 0YN",
+A24-165,Night Shift,,,Van 2,Present,2,2,,"IODS Pipeclad, 6 Singer Rd, Kelvin Industrial Estate, East Kilbride, G75 0YN",
+A24-167,Day Shift,,,Van 1,Present,3,0,,Paisley Indoor Bowling Club 8-10 Wallneuk Road Paisley PA3 4BT,
+A24-167,Night Shift,,,Van 2,Present,3,0,,Paisley Indoor Bowling Club 8-10 Wallneuk Road Paisley PA3 4BT,
+A24-168,Day Shift,,,Van 1,Present,4,0,,"Cruiks Farm, Stepends Road, Lochwinnoch, PA12 4LA",
+A24-168,Night Shift,,,Van 2,Present,4,0,,"Cruiks Farm, Stepends Road, Lochwinnoch, PA12 4LA",
+A24-169,Day Shift,,,Van 1,Present,5,0,,"Mile End Mill, Abbey Mill Business Centre, 12 Seedhill Road, Paisley, PA1 1JS",
+A24-169,Night Shift,,,Van 2,Present,5,1,,"Mile End Mill, Abbey Mill Business Centre, 12 Seedhill Road, Paisley, PA1 1JS",
+A24-170,Day Shift,,,Van 1,Present,2,1,,"Sir James Clark Building, Abbey Mill Business Centre, Paisley, PA1 1TJ",
+A24-170,Night Shift,,,Van 2,Present,2,1,,"Sir James Clark Building, Abbey Mill Business Centre, Paisley, PA1 1TJ",
+A24-171,Day Shift,,,Van 1,Present,1,1,,"Old Embroidery Mill, Seedhill Road, Paisley PA1 1TJ",
+A24-171,Night Shift,,,Van 2,Present,1,1,,"Old Embroidery Mill, Seedhill Road, Paisley PA1 1TJ",
+A24-172,Day Shift,,,Van 1,Present,2,1,,"Anchor One, 1st Floor, 7 Thread Street, Paisley PA1 1JR",
+A24-172,Night Shift,,,Van 2,Present,2,1,,"Anchor One, 1st Floor, 7 Thread Street, Paisley PA1 1JR",
+A24-173,Day Shift,,,Van 1,Present,3,0,,"With Kids (Big Issue Foundation) 15 Annfield Place, Glasgow, G31 2XE",
+A24-173,Night Shift,,,Van 2,Present,3,0,,"With Kids (Big Issue Foundation) 15 Annfield Place, Glasgow, G31 2XE",
+A24-174,Day Shift,,,Van 1,Present,3,0,,"Agile Solutions, 190 West George Street, Glasgow, G2 2NR",
+A24-174,Night Shift,,,Van 2,Present,3,1,,"Agile Solutions, 190 West George Street, Glasgow, G2 2NR",
+A24-175,Day Shift,,,Van 1,Present,2,0,,"Aalco Metals Limited, 117 Clydesmill Place, Cambuslang, Glasgow, G32 8RF",
+A24-175,Night Shift,,,Van 2,Present,2,0,,"Aalco Metals Limited, 117 Clydesmill Place, Cambuslang, Glasgow, G32 8RF",
+A24-176,Lock Up,,,Van 3,Present,3,2,,"Hillhead Sports Club, 32 Hughenden Rd, Glasgow, G12 9XP ",
+A24-176,Night Shift,,,Van 2,Present,2,1,,"Hillhead Sports Club, 32 Hughenden Rd, Glasgow, G12 9XP ",
+A24-177,Day Shift,,,No Keys Held,Present,0,0,,"Scotia House, 1st Floor, Castle Business Park, Stirling, FK9 4TZ",
+A24-177,Night Shift,,,No Keys Held,Present,0,0,,"Scotia House, 1st Floor, Castle Business Park, Stirling, FK9 4TZ ",
+A24-178,Day Shift,,,Van 1,Present,2,1,,"Cassiltoun Housing Association, Castlemilk Stables, 59 Machrie Rd, Glasgow, G45 0AZ ",
+A24-178,Night Shift,,,Van 2,Present,2,1,,"Cassiltoun Housing Association, Castlemilk Stables, 59 Machrie Rd, Glasgow, G45 0AZ",
+A24-178-1,Day Shift,,,Van 1,Present,4,2,,"Cassiltoun Creche, Castlemilk Stables, 59 Machrie Rd, Glasgow, G45 0AZ ",
+A24-178-1,Night Shift,,,Van 2,Present,4,2,,"Cassiltoun Creche, Castlemilk Stables, 59 Machrie Rd, Glasgow, G45 0AZ",
+A24-179,Day Shift,,,Van 1,Present,1,0,,"Epilepsy Scotland, 48 Govan Rd, Glasgow, G51 1JL",
+A24-179,Night Shift,,,Van 2,Present,2,1,,"Epilepsy Scotland, 48 Govan Rd, Glasgow, G51 1JL",
+A24-180,Day Shift,,,Van 1,Present,2,1,,"Linstone Housing Association, 17 Bridge St, Linwood, Paisley PA3 3DB",
+A24-180,Night Shift,,,Van 2,Present,2,1,,"Linstone Housing Association, 17 Bridge St, Linwood, Paisley PA3 3DB ",
+A24-181,Day Shift,,,Van 1,Present,2,0,,"Barnshaws Steel Bending Ltd, 89 Bothwell Rd, Hamilton, ML3 0DW",
+A24-181,Night Shift,,,Van 2,Present,2,0,,"Barnshaws Steel Bending Ltd, 89 Bothwell Rd, Hamilton, ML3 0DW",
+A24-182,Day Shift,,,Van 1,Present,1,1,,"Fleming Pavilion, Todd Campus, Acre Rd, Glasgow, G20 0XA ",
+A24-182,Night Shift,,,Van 2,Present,1,1,,"Fleming Pavilion, Todd Campus, Acre Rd, Glasgow, G20 0XA ",
+A24-182,Lock Up,,,Van 3,Present,1,2,,"Fleming Pavilion, Todd Campus, Acre Rd, Glasgow, G20 0XA ",
+A24-183,Day Shift,,,Van 1,Present,2,2,,"Toyota Material Handling, Glasgow, G69 6GE ",
+A24-183,Night Shift,,,Van 2,Present,2,2,,"Toyota Material Handling, Glasgow, G69 6GE",
+A24-184,Day Shift,,,No Keys Held,Present,0,0,,"61 Bath St, Glasgow, G2 2DG",
+A24-184,Night Shift,,,No Keys Held,Present,0,0,,"61 Bath St, Glasgow, G2 2DG ",
+A24-185,Day Shift,,,No Keys Held,Present,0,0,,"176 Hope St, Glasgow, G2 2TU ",
+A24-185,Night Shift,,,No Keys Held,Present,0,0,,"176 Hope St, Glasgow, G2 2TU ",
+A24-186,Day Shift,,,Van 1,Present,3,0,,"Flat 2, 3 Sydenham Road, Dowanhill, Glasgow, G12 9NT ",
+A24-186,Night Shift,,,Van 2,Present,3,0,,"Flat 2, 3 Sydenham Road, Dowanhill, Glasgow, G12 9NT ",
+A24-188,Day Shift,,,Van 1,Present,2,0,,"Glasgow Local Medical Committee, 40 New City Road, Glasgow, G4 9JT ",
+A24-188,Night Shift,,,Van 2,Present,2,1,,"Glasgow Local Medical Committee, 40 New City Road, Glasgow, G4 9JT ",
+A24-189,Day Shift,,,Van 1,Present,2,0,,"Bibby Financial Services, 1/1, 142 St. Vincent Street, Glasgow, G2 5LA ",
+A24-190,Day Shift,,,Van 1,Present,8,1,,"Belmar Court, Linwood, Paisley PA3 3EE ",
+A24-190,Night Shift,,,Van 2,Present,7,1,,"Belmar Court, Linwood, Paisley PA3 3EE ",
+A24-191,Day Shift,,,Van 1,Present,6,1,,"Asbury Court, Linwood, Paisley PA3 3EG ",
+A24-191,Night Shift,,,Van 2,Present,6,1,,"Asbury Court, Linwood, Paisley PA3 3EG ",
+A24-19-1,Day Shift,,,No Keys Held,Present,0,0,,"89 Main Street, Baillieston, Glasgow, G69 6AB ",Keybox on site
+A24-19-1,Night Shift,,,No Keys Held,Present,0,0,,"89 Main Street, Baillieston, Glasgow, G69 6AB ",Keybox on site
+A24-19-10,Day Shift,,,No Keys Held,Present,0,0,,"160 Charles St, Glasgow, G21 2QQ ",Keybox on site
+A24-19-10,Night Shift,,,No Keys Held,Present,0,0,,"160 Charles St, Glasgow, G21 2QQ ",Keybox on site
+A24-19-100,Day Shift,,,No Keys Held,Present,0,0,,"22 Ryewraes Road, Linwood, PA3 3BF ",Keybox on site
+A24-19-100,Night Shift,,,No Keys Held,Present,0,0,,"22 Ryewraes Road, Linwood, PA3 3BF ",Keybox on site
+A24-19-101,Day Shift,,,No Keys Held,Present,0,0,,"22A Mill Road, Hamilton, ML3 8AA ",Keybox on site
+A24-19-101,Night Shift,,,No Keys Held,Present,0,0,,"22A Mill Road, Hamilton, ML3 8AA ",Keybox on site
+A24-19-102,Day Shift,,,No Keys Held,Present,0,0,,"3 Quarrywood Avenue, Glasgow, G21 3BA ",Keybox on site
+A24-19-102,Night Shift,,,No Keys Held,Present,0,0,,"3 Quarrywood Avenue, Glasgow, G21 3BA ",Keybox on site
+A24-19-103,Day Shift,,,No Keys Held,Present,0,0,,"70 Oxford Street, Glasgow, G5 9EP  ",Keybox on site
+A24-19-103,Night Shift,,,No Keys Held,Present,0,0,,"70 Oxford Street, Glasgow, G5 9EP  ",Keybox on site
+A24-19-104,Day Shift,,,No Keys Held,Present,0,0,,"25 High Calside, Paisley PA2 6BY ",Keybox on site
+A24-19-104,Night Shift,,,No Keys Held,Present,0,0,,"25 High Calside, Paisley PA2 6BY ",Keybox on site
+A24-19-105,Day Shift,,,No Keys Held,Present,0,0,,"1-28 St Patricks Court, Coatbridge, ML5 3AY ",Keybox on site
+A24-19-105,Night Shift,,,No Keys Held,Present,0,0,,"1-28 St Patricks Court, Coatbridge, ML5 3AY ",Keybox on site
+A24-19-106,Day Shift,,,No Keys Held,Present,0,0,,"578 Mosspark Boulevard, Glasgow, G52 1TA ",Keybox on site
+A24-19-106,Night Shift,,,No Keys Held,Present,0,0,,"578 Mosspark Boulevard, Glasgow, G52 1TA ",Keybox on site
+A24-19-107,Day Shift,,,No Keys Held,Present,0,0,,"55-65 Burnside Terrace, Falkirk, FK1 4EF ",Keybox on site
+A24-19-107,Night Shift,,,No Keys Held,Present,0,0,,"55-65 Burnside Terrace, Falkirk, FK1 4EF ",Keybox on site
+A24-19-108,Day Shift,,,No Keys Held,Present,0,0,,"90 Burns Drive, Johnstone, PA5 0HB ",Keybox on site
+A24-19-108,Night Shift,,,No Keys Held,Present,0,0,,"90 Burns Drive, Johnstone, PA5 0HB ",Keybox on site
+A24-19-109,Day Shift,,,No Keys Held,Present,0,0,,"9-11 Talisman Avenue, Dumbarton, G82 5DB   ",Keybox on site
+A24-19-109,Night Shift,,,No Keys Held,Present,0,0,,"9-11 Talisman Avenue, Dumbarton, G82 5DB   ",Keybox on site
+A24-19-11,Day Shift,,,No Keys Held,Present,0,0,,"40 Kingsway Court, Glasgow, G14 9SU ",Keybox on site
+A24-19-11,Night Shift,,,No Keys Held,Present,0,0,,"40 Kingsway Court, Glasgow, G14 9SU ",Keybox on site
+A24-19-110,Day Shift,,,No Keys Held,Present,0,0,,"49A Poplar Place, Blantyre, G72 9QB ",Keybox on site
+A24-19-110,Night Shift,,,No Keys Held,Present,0,0,,"49A Poplar Place, Blantyre, G72 9QB ",Keybox on site
+A24-19-111,Day Shift,,,No Keys Held,Present,0,0,,"13 Titan Boulevard, Clydebank, G81 1DZ ",Keybox on site
+A24-19-111,Night Shift,,,No Keys Held,Present,0,0,,"13 Titan Boulevard, Clydebank, G81 1DZ ",Keybox on site
+A24-19-112,Day Shift,,,No Keys Held,Present,0,0,,"163 Queens Quay, Main Avenue, Clydebank, G81 1BS ",Keybox on site
+A24-19-112,Night Shift,,,No Keys Held,Present,0,0,,"163 Queens Quay, Main Avenue, Clydebank, G81 1BS ",Keybox on site
+A24-19-113,Day Shift,,,No Keys Held,Present,0,0,,"165 Queens Quay, Main Avenue, Clydebank, G81 1BS ",Keybox on site
+A24-19-113,Night Shift,,,No Keys Held,Present,0,0,,"165 Queens Quay, Main Avenue, Clydebank, G81 1BS ",Keybox on site
+A24-19-114,Day Shift,,,No Keys Held,Present,0,0,,"13 Beardmore St, Clydebank, G81 4HA ",Keybox on site
+A24-19-114,Night Shift,,,No Keys Held,Present,0,0,,"13 Beardmore St, Clydebank, G81 4HA ",Keybox on site
+A24-19-115,Day Shift,,,No Keys Held,Present,0,0,,"7 Longstone Rd, Glasgow, G33 3JR ",Keybox on site
+A24-19-115,Night Shift,,,No Keys Held,Present,0,0,,"7 Longstone Rd, Glasgow, G33 3JR ",Keybox on site
+A24-19-116,Day Shift,,,No Keys Held,Present,0,0,,"41 Constarry Gardens, Croy, G65 9HY ",Keybox on site
+A24-19-116,Night Shift,,,No Keys Held,Present,0,0,,"41 Constarry Gardens, Croy, G65 9HY ",Keybox on site
+A24-19-117,Day Shift,,,Van 1,Present,2,3,,"Lipton House, 170 Crown Street, Glasgow, G5 9XD ",
+A24-19-117,Night Shift,,,Van 2,Present,2,3,,"Lipton House, 170 Crown Street, Glasgow, G5 9XD ",
+A24-19-118,Day Shift,,,No Keys Held,Present,0,0,,"19 East Lane, Paisley, PA1 1BT",Keybox on site
+A24-19-118,Night Shift,,,No Keys Held,Present,0,0,,"19 East Lane, Paisley, PA1 1BT",Keybox on site
+A24-19-12,Day Shift,,,Van 1,Present,1,2,,"217 Wallacewell Rd, Glasgow, G21 3PR ",
+A24-19-12,Night Shift,,,Van 2,Present,1,2,,"217 Wallacewell Rd, Glasgow, G21 3PR ",
+A24-19-13,Day Shift,,,No Keys Held,Present,0,0,,"54 Sword Street, Glasgow, G31 1TD ",Keybox on site
+A24-19-13,Night Shift,,,No Keys Held,Present,0,0,,"54 Sword Street, Glasgow, G31 1TD ",Keybox on site
+A24-19-14,Day Shift,,,No Keys Held,Present,0,0,,"97 Sannox Gardens, Glasgow, G313WJ ",Keybox on site
+A24-19-14,Night Shift,,,No Keys Held,Present,0,0,,"97 Sannox Gardens, Glasgow, G313WJ ",Keybox on site
+A24-19-15,Day Shift,,,No Keys Held,Present,0,0,,"Marfield Complex,10 Marfield Street, Glasgow, G32 6EX ",Keybox on site
+A24-19-15,Night Shift,,,No Keys Held,Present,0,0,,"Marfield Complex,10 Marfield Street, Glasgow, G32 6EX ",Keybox on site
+A24-19-16,Day Shift,,,No Keys Held,Present,0,0,,"110 Brockburn Road, Glasgow, G53 5SA ",Keybox on site
+A24-19-16,Night Shift,,,No Keys Held,Present,0,0,,"110 Brockburn Road, Glasgow, G53 5SA ",Keybox on site
+A24-19-17,Day Shift,,,No Keys Held,Present,0,0,,"18 Sandford Gardens, Glasgow, G69 6NA ",Keybox on site
+A24-19-17,Night Shift,,,No Keys Held,Present,0,0,,"18 Sandford Gardens, Glasgow, G69 6NA ",Keybox on site
+A24-19-18,Day Shift,,,No Keys Held,Present,0,0,,"10 Elmslie Court, Glasgow, G69 7NZ ",Keybox on site
+A24-19-18,Night Shift,,,No Keys Held,Present,0,0,,"10 Elmslie Court, Glasgow, G69 7NZ ",Keybox on site
+A24-19-19,Day Shift,,,No Keys Held,Present,0,0,,"14 Gadsburn Court, Glasgow, G21 3LS ",Keybox on site
+A24-19-19,Night Shift,,,No Keys Held,Present,0,0,,"14 Gadsburn Court, Glasgow, G21 3LS ",Keybox on site
+A24-19-2,Day Shift,,,Van 1,Present,4,1,,"20 Dykebar Avenue, Glasgow, G13 3HF ",
+A24-19-2,Night Shift,,,Van 2,Present,4,1,,"20 Dykebar Avenue, Glasgow, G13 3HF ",
+A24-19-20,Day Shift,,,No Keys Held,Present,0,0,,"18 Riddrievale Court, Glasgow, G33 2RN ",Keybox on site
+A24-19-20,Night Shift,,,No Keys Held,Present,0,0,,"18 Riddrievale Court, Glasgow, G33 2RN ",Keybox on site
+A24-19-21,Day Shift,,,No Keys Held,Present,0,0,,"14 Mair Street, Glasgow, G51 1HA ",Keybox on site
+A24-19-21,Night Shift,,,No Keys Held,Present,0,0,,"14 Mair Street, Glasgow, G51 1HA ",Keybox on site
+A24-19-22,Day Shift,,,No Keys Held,Present,0,0,,"12 Freeland Court, Glasgow, G53 6DN ",Keybox on site
+A24-19-22,Night Shift,,,No Keys Held,Present,0,0,,"12 Freeland Court, Glasgow, G53 6DN ",Keybox on site
+A24-19-23,Day Shift,,,No Keys Held,Present,0,0,,"12 McIntosh Court, Glasgow, G31 2HW ",Keybox on site
+A24-19-23,Night Shift,,,No Keys Held,Present,0,0,,"12 McIntosh Court, Glasgow, G31 2HW ",Keybox on site
+A24-19-24,Day Shift,,,No Keys Held,Present,0,0,,"1-30 Toryburn Close, Glasgow, G21 3BD ",Keybox on site
+A24-19-24,Night Shift,,,No Keys Held,Present,0,0,,"1-30 Toryburn Close, Glasgow, G21 3BD ",Keybox on site
+A24-19-25,Day Shift,,,No Keys Held,Present,0,0,,"280 Lincoln Avenue, Glasgow, G13 3BD ",Keybox on site
+A24-19-25,Night Shift,,,No Keys Held,Present,0,0,,"280 Lincoln Avenue, Glasgow, G13 3BD ",Keybox on site
+A24-19-26,Day Shift,,,No Keys Held,Present,0,0,,"2 Arrochar Court, Glasgow, G23 5LS ",Keybox on site
+A24-19-26,Night Shift,,,No Keys Held,Present,0,0,,"2 Arrochar Court, Glasgow, G23 5LS ",Keybox on site
+A24-19-27,Day Shift,,,No Keys Held,Present,0,0,,"51 Gallowhill Road, Glasgow, G76 9DQ ",Keybox on site
+A24-19-27,Night Shift,,,No Keys Held,Present,0,0,,"51 Gallowhill Road, Glasgow, G76 9DQ ",Keybox on site
+A24-19-28,Day Shift,,,No Keys Held,Present,0,0,,"61 Gorget Avenue, Glasgow G13 2AL ",Keybox on site
+A24-19-28,Night Shift,,,No Keys Held,Present,0,0,,"61 Gorget Avenue, Glasgow G13 2AL ",Keybox on site
+A24-19-29,Day Shift,,,No Keys Held,Present,0,0,,"12 Kelvindale Place, Glasgow, G20 8BU ",Keybox on site
+A24-19-29,Night Shift,,,No Keys Held,Present,0,0,,"12 Kelvindale Place, Glasgow, G20 8BU ",Keybox on site
+A24-19-3,Day Shift,,,No Keys Held,Present,0,0,,"21 Dougrie Terrace 0/2, Glasgow, G45 9BN ",Keybox on site
+A24-19-3,Night Shift,,,No Keys Held,Present,0,0,,"21 Dougrie Terrace 0/2, Glasgow, G45 9BN ",Keybox on site
+A24-19-30,Day Shift,,,No Keys Held,Present,0,0,,"10 Dougrie Terrace, Glasgow, G45 9BL ",Keybox on site
+A24-19-30,Night Shift,,,No Keys Held,Present,0,0,,"10 Dougrie Terrace, Glasgow, G45 9BL ",Keybox on site
+A24-19-31,Day Shift,,,No Keys Held,Present,0,0,,"1 - 45 Dougrie Court, Glasgow, G45 9BL ",Keybox on site
+A24-19-31,Night Shift,,,No Keys Held,Present,0,0,,"1 - 45 Dougrie Court, Glasgow, G45 9BL ",Keybox on site
+A24-19-32,Day Shift,,,No Keys Held,Present,0,0,,"1-12 Dougrie Path, Glasgow, G45 9BD ",Keybox on site
+A24-19-32,Night Shift,,,No Keys Held,Present,0,0,,"1-12 Dougrie Path, Glasgow, G45 9BD ",Keybox on site
+A24-19-33,Day Shift,,,No Keys Held,Present,0,0,,"38 Dougrie Drive, Glasgow, G45 9BB ",Keybox on site
+A24-19-33,Night Shift,,,No Keys Held,Present,0,0,,"38 Dougrie Drive, Glasgow, G45 9BB ",Keybox on site
+A24-19-34,Day Shift,,,No Keys Held,Present,0,0,,"62 Dougrie Drive, Glasgow, G45 9BB ",Keybox on site
+A24-19-34,Night Shift,,,No Keys Held,Present,0,0,,"62 Dougrie Drive, Glasgow, G45 9BB ",Keybox on site
+A24-19-35,Day Shift,,,No Keys Held,Present,0,0,,"64 Dougrie Drive, Glasgow, G45 9BB ",Keybox on site
+A24-19-35,Night Shift,,,No Keys Held,Present,0,0,,"64 Dougrie Drive, Glasgow, G45 9BB ",Keybox on site
+A24-19-36,Day Shift,,,No Keys Held,Present,0,0,,"The Dell, 6 Maryville Ave, Giffnock, Glasgow G46 7NE ",Keybox on site
+A24-19-36,Night Shift,,,No Keys Held,Present,0,0,,"The Dell, 6 Maryville Ave, Giffnock, Glasgow G46 7NE ",Keybox on site
+A24-19-37,Day Shift,,,No Keys Held,Present,0,0,,"415 Nitshill Rd, Glasgow, G53 7BN ",Keybox on site
+A24-19-37,Night Shift,,,No Keys Held,Present,0,0,,"415 Nitshill Rd, Glasgow, G53 7BN ",Keybox on site
+A24-19-38,Day Shift,,,No Keys Held,Present,0,0,,"60 Strowan St, Glasgow, G32 9HB ",Keybox on site
+A24-19-38,Night Shift,,,No Keys Held,Present,0,0,,"60 Strowan St, Glasgow, G32 9HB ",Keybox on site
+A24-19-39,Day Shift,,,No Keys Held,Present,0,0,,"539 Mosspark Boulevard, Glasgow, G52 1HU ",Keybox on site
+A24-19-39,Night Shift,,,No Keys Held,Present,0,0,,"539 Mosspark Boulevard, Glasgow, G52 1HU ",Keybox on site
+A24-194,Day Shift,,,No Keys Held,Present,0,0,,"22-28 Newton Street, Paisley, PA1 2RP ",
+A24-194,Night Shift,,,No Keys Held,Present,0,0,,"22-28 Newton Street, Paisley, PA1 2RP ",
+A24-19-4,Day Shift,,,Van 1,Present,2,2,,"1 Dava Street, Glasgow, G51 2JA ",
+A24-19-4,Night Shift,,,Van 2,Present,2,2,,"1 Dava Street, Glasgow, G51 2JA ",
+A24-19-41,Day Shift,,,No Keys Held,Present,0,0,,"14 Raploch Avenue, Glasgow, G14 9FF ",Keybox on site
+A24-19-41,Night Shift,,,No Keys Held,Present,0,0,,"14 Raploch Avenue, Glasgow, G14 9FF ",Keybox on site
+A24-19-42,Day Shift,,,No Keys Held,Present,0,0,,"2045 Maryhill Road, Glasgow, G20 0AA ",Keybox on site
+A24-19-42,Night Shift,,,No Keys Held,Present,0,0,,"2045 Maryhill Road, Glasgow, G20 0AA ",Keybox on site
+A24-19-43,Day Shift,,,No Keys Held,Present,0,0,,"2047 Maryhill Road, Glasgow, G20 0AA ",Keybox on site
+A24-19-43,Night Shift,,,No Keys Held,Present,0,0,,"2047 Maryhill Road, Glasgow, G20 0AA ",Keybox on site
+A24-19-44,Day Shift,,,No Keys Held,Present,0,0,,"1 Brunstane Road, Glasgow, G34 9NP ",Keybox on site
+A24-19-44,Night Shift,,,No Keys Held,Present,0,0,,"1 Brunstane Road, Glasgow, G34 9NP ",Keybox on site
+A24-19-45,Day Shift,,,Van 1,Present,0,1,,"701 Westerhouse Road, Glasgow G34 9DZ ",
+A24-19-45,Night Shift,,,Van 2,Present,1,1,,"701 Westerhouse Road, Glasgow G34 9DZ ",
+A24-19-46,Day Shift,,,Van 1,Present,0,1,,"703 Westerhouse Road, Glasgow, G34 9BE ",
+A24-19-46,Night Shift,,,Van 2,Present,1,1,,"703 Westerhouse Road, Glasgow, G34 9BE ",
+A24-19-47,Day Shift,,,No Keys Held,Present,0,0,,7 Coltpark avenue Glasgow G64 2AT ,Keybox on site
+A24-19-47,Night Shift,,,No Keys Held,Present,0,0,,7 Coltpark avenue Glasgow G64 2AT ,Keybox on site
+A24-19-48,Day Shift,,,No Keys Held,Present,0,0,,"12 Kennishead Ave, Glasgow, G46 8PR ",Keybox on site
+A24-19-48,Night Shift,,,No Keys Held,Present,0,0,,"12 Kennishead Ave, Glasgow, G46 8PR ",Keybox on site
+A24-19-49,Day Shift,,,No Keys Held,Present,0,0,,"12 Gartcraig Place, Glasgow, G33 2TG ",Keybox on site
+A24-19-49,Night Shift,,,No Keys Held,Present,0,0,,"12 Gartcraig Place, Glasgow, G33 2TG ",Keybox on site
+A24-195,Day Shift,,,No Keys Held,Present,0,0,,"7 Farrier Court, Johnstone, PA5 8AQ ",
+A24-195,Night Shift,,,No Keys Held,Present,0,0,,"7 Farrier Court, Johnstone, PA5 8AQ ",
+A24-19-5,Day Shift,,,Van 1,Present,4,1,,"Wheatley House, 25 Cochrane St, Glasgow, G1 1HL ",
+A24-19-5,Night Shift,,,Van 2,Present,4,1,,"Wheatley House, 25 Cochrane St, Glasgow, G1 1HL ",
+A24-19-50,Day Shift,,,No Keys Held,Present,0,0,,"46 Glasgow Road, Clydebank G81 1BT ",Keybox on site
+A24-19-50,Night Shift,,,No Keys Held,Present,0,0,,"46 Glasgow Road, Clydebank G81 1BT ",Keybox on site
+A24-19-51,Day Shift,,,No Keys Held,Present,0,0,,"48 Glasgow Road, Clydebank G81 1BT ",Keybox on site
+A24-19-51,Night Shift,,,No Keys Held,Present,0,0,,"48 Glasgow Road, Clydebank G81 1BT ",Keybox on site
+A24-19-52,Day Shift,,,No Keys Held,Present,0,0,,"1 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-52,Night Shift,,,No Keys Held,Present,0,0,,"1 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-53,Day Shift,,,No Keys Held,Present,0,0,,"3 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-53,Night Shift,,,No Keys Held,Present,0,0,,"3 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-54,Day Shift,,,No Keys Held,Present,0,0,,"7 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-54,Night Shift,,,No Keys Held,Present,0,0,,"7 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-55,Day Shift,,,No Keys Held,Present,0,0,,"11 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-55,Night Shift,,,No Keys Held,Present,0,0,,"11 Titan Boulevard, Clydebank G81 1DZ ",Keybox on site
+A24-19-56,Day Shift,,,No Keys Held,Present,0,0,,"14 Jura Court, Glasgow, G52 1BP ",Keybox on site
+A24-19-56,Night Shift,,,No Keys Held,Present,0,0,,"14 Jura Court, Glasgow, G52 1BP ",Keybox on site
+A24-19-57,Day Shift,,,No Keys Held,Present,0,0,,"20 Balbeggie Street, Glasgow G32 9HQ ",Keybox on site
+A24-19-57,Night Shift,,,No Keys Held,Present,0,0,,"20 Balbeggie Street, Glasgow G32 9HQ ",Keybox on site
+A24-19-58,Day Shift,,,No Keys Held,Present,0,0,,"20 Queen Street, Paisley, PA1 2TU ",Keybox on site
+A24-19-58,Night Shift,,,No Keys Held,Present,0,0,,"20 Queen Street, Paisley, PA1 2TU ",Keybox on site
+A24-19-59,Day Shift,,,No Keys Held,Present,0,0,,"25 Soutra Pl, Glasgow, G33 3JE ",Keybox on site
+A24-19-59,Night Shift,,,No Keys Held,Present,0,0,,"25 Soutra Pl, Glasgow, G33 3JE ",Keybox on site
+A24-196,Day Shift,,,Van 1,Present,1,1,,"Newton House Student Accomodation, 457 Sauchiehall Street, Glasgow G2 3LG ",
+A24-196,Night Shift,,,Van 2,Present,1,0,,"Newton House Student Accomodation, 457 Sauchiehall Street, Glasgow G2 3LG ",
+A24-19-6,Day Shift,,,No Keys Held,Present,0,0,,"17 Cathkinview Place, Glasgow, G42 9ER ",Keybox on site
+A24-19-6,Night Shift,,,No Keys Held,Present,0,0,,"17 Cathkinview Place, Glasgow, G42 9ER ",Keybox on site
+A24-19-60,Day Shift,,,No Keys Held,Present,0,0,,"255 Bellrock St, Glasgow, G33 3LF     ",Keybox on site
+A24-19-60,Night Shift,,,No Keys Held,Present,0,0,,"255 Bellrock St, Glasgow, G33 3LF     ",Keybox on site
+A24-19-61,Day Shift,,,No Keys Held,Present,0,0,,"29 Muirhill Avenue, Glasgow, G44 3HP  ",Keybox on site
+A24-19-61,Night Shift,,,No Keys Held,Present,0,0,,"29 Muirhill Avenue, Glasgow, G44 3HP  ",Keybox on site
+A24-19-62,Day Shift,,,No Keys Held,Present,0,0,,"31 Muirhill Avenue, Glasgow, G44 3HP ",Keybox on site
+A24-19-62,Night Shift,,,No Keys Held,Present,0,0,,"31 Muirhill Avenue, Glasgow, G44 3HP ",Keybox on site
+A24-19-63,Day Shift,,,No Keys Held,Present,0,0,,"4 Broomlands Court, Paisley, PA1 2LN  (OFFICE) ",Keybox on site
+A24-19-63,Night Shift,,,No Keys Held,Present,0,0,,"4 Broomlands Court, Paisley, PA1 2LN  (OFFICE) ",Keybox on site
+A24-19-64,Day Shift,,,No Keys Held,Present,0,0,,"42-44 Circus Drive, Dennistoun, Glasgow G31 2JE ",Keybox on site
+A24-19-64,Night Shift,,,No Keys Held,Present,0,0,,"42-44 Circus Drive, Dennistoun, Glasgow G31 2JE ",Keybox on site
+A24-19-65,Day Shift,,,No Keys Held,Present,0,0,,"45-53 Burnside Burnside Terrace, Falkirk, FK1 4EF ",Keybox on site
+A24-19-65,Night Shift,,,No Keys Held,Present,0,0,,"45-53 Burnside Burnside Terrace, Falkirk, FK1 4EF ",Keybox on site
+A24-19-66,Day Shift,,,No Keys Held,Present,0,0,,"67-77 Burnside Terrace, Falkirk, FK1 4EF ",Keybox on site
+A24-19-66,Night Shift,,,No Keys Held,Present,0,0,,"67-77 Burnside Terrace, Falkirk, FK1 4EF ",Keybox on site
+A24-19-67,Day Shift,,,No Keys Held,Present,0,0,,"351-359 Inverleith St, Glasgow, G32 6EG ",Keybox on site
+A24-19-67,Night Shift,,,No Keys Held,Present,0,0,,"351-359 Inverleith St, Glasgow, G32 6EG ",Keybox on site
+A24-19-68,Day Shift,,,No Keys Held,Present,0,0,,"The White House, Commonhead Farm, G69 9TY ",Keybox on site
+A24-19-68,Night Shift,,,No Keys Held,Present,0,0,,"The White House, Commonhead Farm, G69 9TY ",Keybox on site
+A24-19-69,Day Shift,,,No Keys Held,Present,0,0,,"2 Taylor Place, Glasgow, G4 0NZ ",Keybox on site
+A24-19-69,Night Shift,,,No Keys Held,Present,0,0,,"2 Taylor Place, Glasgow, G4 0NZ ",Keybox on site
+A24-197,Day Shift,,,No Keys Held,Present,0,0,,"VCL, 2 Kelvin Park South, East Kilbride, Glasgow, G75 0RH ",
+A24-197,Night Shift,,,No Keys Held,Present,0,0,,"VCL, 2 Kelvin Park South, East Kilbride, Glasgow, G75 0RH ",
+A24-19-7,Day Shift,,,No Keys Held,Present,0,0,,"50 Kennishead Avenue, Glasgow, G46 8RQ ",Keybox on site
+A24-19-7,Night Shift,,,No Keys Held,Present,0,0,,"50 Kennishead Avenue, Glasgow, G46 8RQ ",Keybox on site
+A24-19-70,Day Shift,,,No Keys Held,Present,0,0,,"2 Craigbo Street, Glasgow, G23 5PR  ",Keybox on site
+A24-19-70,Night Shift,,,No Keys Held,Present,0,0,,"2 Craigbo Street, Glasgow, G23 5PR  ",Keybox on site
+A24-19-71,Day Shift,,,No Keys Held,Present,0,0,,"2241 Great Western Road, Glasgow, G15 6NE ",Keybox on site
+A24-19-71,Night Shift,,,No Keys Held,Present,0,0,,"2241 Great Western Road, Glasgow, G15 6NE ",Keybox on site
+A24-19-72,Day Shift,,,No Keys Held,Present,0,0,,"1 Atholl Gardens, Glasgow, G46 7SB ",Keybox on site
+A24-19-72,Night Shift,,,No Keys Held,Present,0,0,,"1 Atholl Gardens, Glasgow, G46 7SB ",Keybox on site
+A24-19-73,Day Shift,,,No Keys Held,Present,0,0,,"6 Watson Street, Glasgow, G1 5AF  ",Keybox on site
+A24-19-73,Night Shift,,,No Keys Held,Present,0,0,,"6 Watson Street, Glasgow, G1 5AF  ",Keybox on site
+A24-19-74,Day Shift,,,No Keys Held,Present,0,0,,10 Watson Street Glasgow G1 5AF ,Keybox on site
+A24-19-74,Night Shift,,,No Keys Held,Present,0,0,,10 Watson Street Glasgow G1 5AF ,Keybox on site
+A24-19-75,Day Shift,,,Van 1,Present,2,0,,"Unit 4, Southpoint, Dixon Blazes Ind Estate, Glasgow, G5 0UG ",
+A24-19-75,Night Shift,,,Van 2,Present,2,0,,"Unit 4, Southpoint, Dixon Blazes Ind Estate, Glasgow, G5 0UG ",
+A24-19-76,Day Shift,,,Van 1,Present,4,0,,"14 Causewayside Street, Glasgow, G32 8LU ",
+A24-19-76,Night Shift,,,Van 2,Present,4,0,,"14 Causewayside Street, Glasgow, G32 8LU ",
+A24-19-77,Day Shift,,,Van 1,Present,1,1,,"144 Bell Street, Glasgow, G4 0SW ",
+A24-19-77,Night Shift,,,Van 2,Present,1,1,,"144 Bell Street, Glasgow, G4 0SW ",
+A24-19-78,Day Shift,,,Van 1,Present,1,1,,"160 Bell Street, Glasgow, G4 0SW ",
+A24-19-78,Night Shift,,,Van 2,Present,1,1,,"160 Bell Street, Glasgow, G4 0SW ",
+A24-19-79,Day Shift,,,No Keys Held,Present,0,0,,"112 Baltic Street, Glasgow, G40 3BL ",Keybox on site
+A24-19-79,Night Shift,,,No Keys Held,Present,0,0,,"112 Baltic Street, Glasgow, G40 3BL ",Keybox on site
+A24-19-8,Day Shift,,,No Keys Held,Present,0,0,,"55 Whitevale St, Glasgow, G31 1EE ",Keybox on site
+A24-19-8,Night Shift,,,No Keys Held,Present,0,0,,"55 Whitevale St, Glasgow, G31 1EE ",Keybox on site
+A24-19-80,Day Shift,,,No Keys Held,Present,0,0,,"12-14, 65 Woodside Terrace, Glasgow, G3 7XH ",Keybox on site
+A24-19-80,Night Shift,,,No Keys Held,Present,0,0,,"12-14, 65 Woodside Terrace, Glasgow, G3 7XH ",Keybox on site
+A24-19-81,Day Shift,,,No Keys Held,Present,0,0,,"6-7 Lowther Terrace, Glasgow, G12 0RN ",Keybox on site
+A24-19-81,Night Shift,,,No Keys Held,Present,0,0,,"6-7 Lowther Terrace, Glasgow, G12 0RN ",Keybox on site
+A24-19-82,Day Shift,,,No Keys Held,Present,0,0,,"62 North Bridge St, Bathgate, EH48 4PP ",Keybox on site
+A24-19-82,Night Shift,,,No Keys Held,Present,0,0,,"62 North Bridge St, Bathgate, EH48 4PP ",Keybox on site
+A24-19-83,Day Shift,,,Van 1,Present,4,0,,"57 Keppochhill Road, Glasgow, G21 1SR ",
+A24-19-83,Night Shift,,,Van 2,Present,4,0,,"57 Keppochhill Road, Glasgow, G21 1SR ",
+A24-19-84,Day Shift,,,Van 1,Present,1,0,,"22 Fulbar Street, Renfrew, PA4 8PD ",
+A24-19-84,Night Shift,,,Van 2,Present,1,0,,"22 Fulbar Street, Renfrew, PA4 8PD ",
+A24-19-85,Day Shift,,,Van 1,Present,2,1,,"1967 Dumbarton Rd, Glasgow, G14 0HZ ",
+A24-19-85,Night Shift,,,Van 2,Present,2,1,,"1967 Dumbarton Rd, Glasgow, G14 0HZ ",
+A24-19-86,Day Shift,,,No Keys Held,Present,0,0,,"158 Smyllum Road, Lanark, ML11 7BT ",Keybox on site
+A24-19-86,Night Shift,,,No Keys Held,Present,0,0,,"158 Smyllum Road, Lanark, ML11 7BT ",Keybox on site
+A24-19-87,Day Shift,,,Van 1,Present,1,0,,"12 Lilybank Wynd, Johnstone, PA5 8EF ",
+A24-19-87,Night Shift,,,Van 2,Present,1,0,,"12 Lilybank Wynd, Johnstone, PA5 8EF ",
+A24-19-88,Day Shift,,,No Keys Held,Present,0,0,,"14 McGregor Street, Wishaw, ML2 7SE ",Keybox on site
+A24-19-88,Night Shift,,,No Keys Held,Present,0,0,,"14 McGregor Street, Wishaw, ML2 7SE ",Keybox on site
+A24-19-89,Day Shift,,,No Keys Held,Present,0,0,,"80 Partickhill Road, Glasgow, G11 5NB ",Keybox on site
+A24-19-89,Night Shift,,,No Keys Held,Present,0,0,,"80 Partickhill Road, Glasgow, G11 5NB ",Keybox on site
+A24-199,Day Shift,,,Van 1,Present,1,2,,"Active Communities, 7 Quarry Street, Johnstone, PA5 8DY ",
+A24-199,Night Shift,,,Van 2,Present,1,2,,"Active Communities, 7 Quarry Street, Johnstone, PA5 8DY ",
+A24-19-9,Day Shift,,,No Keys Held,Present,0,0,,"7 Longstone Place, Glasgow, G33 3JW ",Keybox on site
+A24-19-9,Night Shift,,,No Keys Held,Present,0,0,,"7 Longstone Place, Glasgow, G33 3JW ",Keybox on site
+A24-19-90,Day Shift,,,No Keys Held,Present,0,0,,"Lourdes Court, 5 Lourdes Avenue, Glasgow, G52 3QU ",Keybox on site
+A24-19-90,Night Shift,,,No Keys Held,Present,0,0,,"Lourdes Court, 5 Lourdes Avenue, Glasgow, G52 3QU ",Keybox on site
+A24-19-91,Day Shift,,,Van 1,Present,2,0,,"186 Moffat Street, Glasgow, G5 0ND ",
+A24-19-91,Night Shift,,,Van 2,Present,2,0,,"186 Moffat Street, Glasgow, G5 0ND ",
+A24-19-92,Day Shift,,,Van 1,Present,2,0,,"69 Burnside Terrace, Falkirk, FK1 4EF ",
+A24-19-92,Night Shift,,,Van 2,Present,2,0,,"69 Burnside Terrace, Falkirk, FK1 4EF ",
+A24-19-93,Day Shift,,,No Keys Held,Present,0,0,,"1 Inchyra Place, Grangemouth, FK3 9EQ ",Keybox on site
+A24-19-93,Night Shift,,,No Keys Held,Present,0,0,,"1 Inchyra Place, Grangemouth, FK3 9EQ ",Keybox on site
+A24-19-94,Day Shift,,,No Keys Held,Present,0,0,,"1040 Dumbarton Road, Glasgow, G14 9UL ",Keybox on site
+A24-19-94,Night Shift,,,No Keys Held,Present,0,0,,"1040 Dumbarton Road, Glasgow, G14 9UL ",Keybox on site
+A24-19-95,Day Shift,,,Van 1,Present,1,1,,"1969 Dumbarton Road, Glasgow, G14 0HZ ",
+A24-19-95,Night Shift,,,Van 2,Present,1,1,,"1969 Dumbarton Road, Glasgow, G14 0HZ ",
+A24-19-96,Day Shift,,,No Keys Held,Present,0,0,,"1196 Tollcross Road, Glasgow, G32 8HQ ",Keybox on site
+A24-19-96,Night Shift,,,No Keys Held,Present,0,0,,"1196 Tollcross Road, Glasgow, G32 8HQ ",Keybox on site
+A24-19-98,Day Shift,,,No Keys Held,Present,0,0,,"1 Shawpark Court, Glasgow, G20 9AG ",Keybox on site
+A24-19-98,Night Shift,,,No Keys Held,Present,0,0,,"1 Shawpark Court, Glasgow, G20 9AG ",Keybox on site
+A24-19-99,Day Shift,,,No Keys Held,Present,0,0,,"90 Carlisle Road, Hamilton, ML3 7TX   ",Keybox on site
+A24-19-99,Night Shift,,,No Keys Held,Present,0,0,,"90 Carlisle Road, Hamilton, ML3 7TX   ",Keybox on site
+A24-200,Day Shift,,,Van 1,Present,10,0,,"Kilmacolm Golf Club, Porterfield Road, Kilmacolm, PA11 3EN ",
+A24-200,Night Shift,,,Van 2,Present,10,0,,"Kilmacolm Golf Club, Porterfield Road, Kilmacolm, PA11 3EN ",
+A24-203,Day Shift,,,Van 1,Present,1,1,,"Carlton Building, 63 Carlton Place, Glasgow, G5 9TW ",
+A24-203,Night Shift,,,Van 2,Present,1,1,,"Carlton Building, 63 Carlton Place, Glasgow, G5 9TW ",
+A24-205,Day Shift,,,Van 1,Present,2,1,,"St Columba’s Junior School, Knockbuckle Rd, Kilmacolm PA13 4EQ ",
+A24-205,Night Shift,,,Van 2,Present,2,1,,"St Columba’s Junior School, Knockbuckle Rd, Kilmacolm PA13 4EQ ",
+A24-205,Day Shift,,,Van 1,Present,2,1,,"St Columba’s Senior School, Duchal Rd, Kilmacolm PA13 4AU ",
+A24-205,Night Shift,,,Van 2,Present,2,1,,"St Columba’s Senior School, Duchal Rd, Kilmacolm PA13 4AU ",
+A24-206,Day Shift,,,Van 1,Present,12,1,,"The Great Western Auctions Ltd, 1291 Dumbarton Rd, Glasgow, G14 9UY ",
+A24-206,Night Shift,,,Van 2,Present,12,1,,"The Great Western Auctions Ltd, 1291 Dumbarton Rd, Glasgow, G14 9UY ",
+A24-207,Day Shift,,,Van 1,Present,2,2,,"Johnstone Credit Union Ltd, 26 Church Street, Johnstone, PA5 8DU ",
+A24-207,Night Shift,,,Van 2,Present,2,2,,"Johnstone Credit Union Ltd, 26 Church Street, Johnstone, PA5 8DU ",
+A24-209,Day Shift,,,Van 1,Present,5,0,,"9 Eglinton Drive, Giffnock, Glasgow, G467NQ ",
+A24-209,Night Shift,,,Van 2,Present,5,0,,"9 Eglinton Drive, Giffnock, Glasgow, G467NQ ",
+A24-210,Day Shift,,,Van 1,Present,2,0,,"SLR Consulting Ltd, 93 South Woodside Road, Glasgow, G20 6NT ",
+A24-210,Night Shift,,,Van 2,Present,2,0,,"SLR Consulting Ltd, 93 South Woodside Road, Glasgow, G20 6NT ",
+A24-211,Day Shift,,,Van 1,Present,5,1,,"Story Contracting Ltd, Whistleberry Rd, Blantyre, Glasgow G72 0TA ",
+A24-211,Night Shift,,,Van 2,Present,5,1,,"Story Contracting Ltd, Whistleberry Rd, Blantyre, Glasgow G72 0TA ",
+A24-212,Day Shift,,,Van 1,Present,5,0,,"GPRS - Allscot, Unit 2 Southpoint, 15 Lawmoor Rd, Dixon Blazes Ind Est, Glasgow, G5 0UG ",
+A24-212,Night Shift,,,Van 2,Present,5,0,,"GPRS - Allscot, Unit 2 Southpoint, 15 Lawmoor Rd, Dixon Blazes Ind Est, Glasgow, G5 0UG ",
+A24-214,Day Shift,,,Van 1,Present,2,2,,"West Boathouse, Glasgow Green, G1 5QA ",
+A24-214,Night Shift,,,Van 2,Present,2,1,,"West Boathouse, Glasgow Green, G1 5QA ",
+A24-215,Day Shift,,,Van 1,Present,2,1,,"Govan Housing, 35 McKechnie Street Glasgow G51 3AQ ",
+A24-215,Night Shift,,,Van 2,Present,2,1,,"Govan Housing, 35 McKechnie Street Glasgow G51 3AQ ",
+A24-216,Day Shift,,,Van 1,Present,2,1,,"Dorsuite, 17 Law Place, Nerston Ind Est, East Kilbride, G74 4QL ",
+A24-216,Night Shift,,,Van 2,Present,2,1,,"Dorsuite, 17 Law Place, Nerston Ind Est, East Kilbride, G74 4QL ",
+A24-217,Day Shift,,,Van 1,Present,1,0,,"United Kingdom Testing and Certification, Cairnmuir Road, East Kilbride, G74 4GY ",
+A24-217,Night Shift,,,Van 2,Present,1,1,,"United Kingdom Testing and Certification, Cairnmuir Road, East Kilbride, G74 4GY ",
+A24-218,Day Shift,,,Van 1,Present,1,0,,"65 Bath St,Glasgow, G2 2BX ",
+A24-218,Night Shift,,,Van 2,Present,1,0,,"65 Bath St,Glasgow, G2 2BX ",
+A24-219,Day Shift,,,Van 1,Present,1,0,,"180 Hope Street, Glasgow, G2 2UE ",
+A24-219,Night Shift,,,Van 2,Present,1,0,,"180 Hope Street, Glasgow, G2 2UE ",
+A24-220,Day Shift,,,Van 1,Present,2,0,,"Fyfe Chambers, 105 West George Street, Glasgow, G2 1QX ",
+A24-220,Night Shift,,,Van 2,Present,3,1,,"Fyfe Chambers, 105 West George Street, Glasgow, G2 1QX ",
+A24-221,Day Shift,,,Van 1,Present,1,0,,"299 West George St, Glasgow, G2 4LF ",
+A24-221,Night Shift,,,Van 2,Present,1,0,,"299 West George St, Glasgow, G2 4LF ",
+A24-222,Day Shift,,,Van 1,Present,2,0,,"33A Gordon St, Glasgow, G1 3PF ",
+A24-222,Night Shift,,,Van 2,Present,2,0,,"33A Gordon St, Glasgow, G1 3PF ",
+A24-223,Day Shift,,,Van 1,Present,2,2,,"53 Ballindalloch Drive, Glasgow, G31 3DQ ",
+A24-223,Night Shift,,,Van 2,Present,2,2,,"53 Ballindalloch Drive, Glasgow, G31 3DQ ",
+A24-224,Day Shift,,,Van 1,Present,2,1,,"10 Sannox Gardens, Glasgow, G31 3JE ",
+A24-224,Night Shift,,,Van 2,Present,2,0,,"10 Sannox Gardens, Glasgow, G31 3JE ",
+A24-225,Day Shift,,,Van 1,Present,4,1,,"Millies Café, 108 Roebank Street, Glasgow, G31 ",
+A24-225,Night Shift,,,Van 2,Present,4,1,,"Millies Café, 108 Roebank Street, Glasgow, G31 ",
+A24-226,Day Shift,,,Van 1,Present,2,1,,"Sports Hub, Alexandra Park, Glasgow, G31 3JJ ",
+A24-226,Night Shift,,,Van 2,Present,2,1,,"Sports Hub, Alexandra Park, Glasgow, G31 3JJ ",
+A24-227,Day Shift,,,Van 1,Present,5,2,,"Bluevale Hall, 30 Abernethy Street, Glasgow, G31 3SX ",
+A24-227,Night Shift,,,Van 2,Present,5,2,,"Bluevale Hall, 30 Abernethy Street, Glasgow, G31 3SX ",
+A24-228,Day Shift,,,Van 1,Present,2,2,,"Play Away Nursery, 10 Dukes Wynd, Glasgow, G4 0WX ",
+A24-228,Night Shift,,,Van 2,Present,2,1,,"Play Away Nursery, 10 Dukes Wynd, Glasgow, G4 0WX ",
+A24-229,Day Shift,,,Van 1,Present,2,1,,"Recycling Centre, 102 Roebank Street, Glasgow, G31 3EA ",
+A24-229,Night Shift,,,Van 2,Present,2,1,,"Recycling Centre, 102 Roebank Street, Glasgow, G31 3EA ",
+A24-230,Day Shift,,,Van 1,Present,2,0,,"1 Culloden Street, Glasgow, G31 3NX ",
+A24-230,Night Shift,,,Van 2,Present,2,0,,"1 Culloden Street, Glasgow, G31 3NX ",
+A24-231,Day Shift,,,Van 1,Present,1,1,,"100 Duke Street, Glasgow, G4 0UH ",
+A24-231,Night Shift,,,Van 2,Present,1,1,,"100 Duke Street, Glasgow, G4 0UH ",
+A24-232,Day Shift,,,Van 1,Present,1,1,,"106 Duke Street, Glasgow, G4 0UH ",
+A24-232,Night Shift,,,Van 2,Present,1,1,,"106 Duke Street, Glasgow, G4 0UH ",
+A24-233,Day Shift,,,Van 1,Present,1,1,,"110 Duke Street, Glasgow, G4 0UH ",
+A24-233,Night Shift,,,Van 2,Present,1,1,,"110 Duke Street, Glasgow, G4 0UH ",
+A24-234,Day Shift,,,Van 1,Present,1,1,,"1 Dukes Wynd, Glasgow, G4 0UH ",
+A24-234,Night Shift,,,Van 2,Present,1,1,,"1 Dukes Wynd, Glasgow, G4 0UH ",
+A24-235,Day Shift,,,Van 1,Present,1,1,,"3 Dukes Wynd, Glasgow, G4 0WX ",
+A24-235,Night Shift,,,Van 2,Present,1,1,,"3 Dukes Wynd, Glasgow, G4 0WX ",
+A24-236,Day Shift,,,Van 1,Present,3,0,,"Hardie Polymers Ltd, Cadder House, 160 Clober Road, Milngavie, G62 7LW ",
+A24-236,Night Shift,,,Van 2,Present,3,0,,"Hardie Polymers Ltd, Cadder House, 160 Clober Road, Milngavie, G62 7LW ",
+A24-238,Day Shift,,,No Keys Held,Present,0,0,,"55 Harcourt Drive, Glasgow, G31 3HG ",
+A24-238,Night Shift,,,No Keys Held,Present,0,0,,"55 Harcourt Drive, Glasgow, G31 3HG ",
+A24-239,Day Shift,,,Van 1,Present,1,2,,"124 St Vincent Street, Glasgow, G2 5HF ",
+A24-239,Night Shift,,,Van 2,Present,1,1,,"124 St Vincent Street, Glasgow, G2 5HF ",
+A24-239,Lock Up,,,Van 3,Present,1,2,,"124 St Vincent Street, Glasgow, G2 5HF ",
+A24-240,Day Shift,,,Van 1,Present,1,1,,"Govanhill Baths, 99 Calder St, Glasgow G42 7RA ",
+A24-240,Night Shift,,,Van 2,Present,1,0,,"Govanhill Baths, 99 Calder St, Glasgow G42 7RA ",
+A24-241,Day Shift,,,Van 1,Present,1,1,,"Bristol & West House, 78-82 Union Street, Glasgow, G12 3QS ",
+A24-241,Night Shift,,,Van 2,Present,1,1,,"Bristol & West House, 78-82 Union Street, Glasgow, G12 3QS ",
+A24-242,Day Shift,,,Van 1,Present,2,1,,"Houston Bottling, 95 Wright Street, Renfrew, PA4 8AN ",
+A24-242,Night Shift,,,Van 2,Present,2,1,,"Houston Bottling, 95 Wright Street, Renfrew, PA4 8AN ",
+A24-243,Day Shift,,,Van 1,Present,2,0,,"The Ker Practice, 30 Croftfoot Road, Glasgow, G44 5JT ",
+A24-243,Night Shift,,,Van 2,Present,2,0,,"The Ker Practice, 30 Croftfoot Road, Glasgow, G44 5JT ",
+A24-245,Day Shift,,,Van 1,Present,4,0,,"Newarthill Credit Union Ltd, 111-113 High Street, Newarthill, Motherwell, ML1 5JH ",
+A24-245,Night Shift,,,Van 2,Present,4,0,,"Newarthill Credit Union Ltd, 111-113 High Street, Newarthill, Motherwell, ML1 5JH ",
+A24-246,Day Shift,,,Van 1,Present,1,2,,"Govan Home Team, 246 Edmiston Drive, Glasgow, G51 2YU ",
+A24-246,Night Shift,,,Van 2,Present,1,2,,"Govan Home Team, 246 Edmiston Drive, Glasgow, G51 2YU ",
+A24-247,Day Shift,,,No Keys Held,Present,0,0,,"Jim Stephen House, 20 Wanlock Street, Glasgow, G51 3AB ",
+A24-247,Night Shift,,,No Keys Held,Present,0,0,,"Jim Stephen House, 20 Wanlock Street, Glasgow, G51 3AB ",
+A24-248,Day Shift,,,Van 1,Present,1,2,,"Fire Brigades Union, 52 St Enoch Square, 4th Floor, Glasgow, G1 4AA ",
+A24-248,Night Shift,,,Van 2,Present,1,2,,"Fire Brigades Union, 52 St Enoch Square, 4th Floor, Glasgow, G1 4AA ",
+A24-249,Day Shift,,,Van 1,Present,1,0,,"Visibility Scotland, 2 Queens Crescent, Glasgow, G4 9BW ",
+A24-249,Night Shift,,,Van 2,Present,5,2,,"Visibility Scotland, 2 Queens Crescent, Glasgow, G4 9BW ",
+A24-250,Day Shift,,,No Keys Held,Present,0,0,,"Communal Centre, 60 Oran Place, Glasgow, G20 8BB ",
+A24-250,Night Shift,,,No Keys Held,Present,0,0,,"Communal Centre, 60 Oran Place, Glasgow, G20 8BB ",
+A24-251,Day Shift,,,Van 1,Present,2,2,,"1-8 Academy Court, Chryston, G69 9BT ",
+A24-251,Night Shift,,,Van 2,Present,2,2,,"1-8 Academy Court, Chryston, G69 9BT ",
+A24-252,Day Shift,,,Van 1,Present,5,0,,"MacInnes Medical Centre, 60 High Street, Newarthill, ML1 5JU ",
+A24-252,Night Shift,,,Van 2,Present,5,0,,"MacInnes Medical Centre, 60 High Street, Newarthill, ML1 5JU ",
+A24-253,Day Shift,,,Van 1,Present,2,0,,"Richard Austin Alloys, 31 Dunivaig Road, Glasgow G33 4TP ",
+A24-253,Night Shift,,,Van 2,Present,1,0,,"Richard Austin Alloys, 31 Dunivaig Road, Glasgow G33 4TP ",
+A24-254,Day Shift,,,No Keys Held,Present,0,0,,"2 Sandstone Drive, Thornliebank, Glasgow G46 7RD ",
+A24-254,Night Shift,,,No Keys Held,Present,0,0,,"2 Sandstone Drive, Thornliebank, Glasgow G46 7RD ",
+A24-255,Day Shift,,,Van 1,Present,4,1,,"176-178 Bath Street, Glasgow, G2 4HG ",
+A24-255,Night Shift,,,Van 2,Present,4,1,,"176-178 Bath Street, Glasgow, G2 4HG ",
+A24-256,Day Shift,,,Van 1,Present,1,1,,"Wellington Place, 107 West Regent Street, Glasgow, G2 2BA ",
+A24-256,Night Shift,,,Van 2,Present,1,1,,"Wellington Place, 107 West Regent Street, Glasgow, G2 2BA ",
+A24-258,Day Shift,,,Van 1,Present,3,2,,"Urban Union Ltd, Orion House, 7 Robroyston Oval, Glasgow, G33 1AP ",
+A24-258,Night Shift,,,Van 2,Present,3,2,,"Urban Union Ltd, Orion House, 7 Robroyston Oval, Glasgow, G33 1AP ",
+A24-259,Day Shift,,,No Keys Held,Present,0,0,,"Maccabi GB, May Terrace, Giffnock, Glasgow, G46 6LD ",
+A24-259,Night Shift,,,No Keys Held,Present,0,0,,"Maccabi GB, May Terrace, Giffnock, Glasgow, G46 6LD ",
+A24-260,Day Shift,,,Van 1,Present,2,1,,"Woodfarm High School, Robslee Road, Glasgow, G46 7HG ",
+A24-260,Night Shift,,,Van 2,Present,3,1,,"Woodfarm High School, Robslee Road, Glasgow, G46 7HG ",
+A24-261,Day Shift,,,Van 1,Present,2,1,,"Carlibar Primary School, Carlibar Rd, Barrhead, Glasgow G78 1BD ",
+A24-261,Night Shift,,,Van 2,Present,2,1,,"Carlibar Primary School, Carlibar Rd, Barrhead, Glasgow G78 1BD ",
+A24-262,Day Shift,,,Van 1,Present,2,1,,"Mearns Castle High School, Waterfoot Road, Glasgow G77 5GU ",
+A24-262,Night Shift,,,Van 2,Present,2,1,,"Mearns Castle High School, Waterfoot Road, Glasgow G77 5GU ",
+A24-263,Day Shift,,,Van 1,Present,2,1,,"Williamwood High School, Eaglesham Road, Clarkston, Glasgow G76 8RF ",
+A24-263,Night Shift,,,Van 2,Present,2,1,,"Williamwood High School, Eaglesham Road, Clarkston, Glasgow G76 8RF ",
+A24-265,Day Shift,,,Van 1,Present,2,3,,"Cairellot Nursery, Greenock Rd, Bishopton, PA7 5AW ",
+A24-265,Night Shift,,,Van 2,Present,2,3,,"Cairellot Nursery, Greenock Rd, Bishopton, PA7 5AW ",
+A24-266,Day Shift,,,Van 1,Present,1,0,,"LCP Property, Drumchapel Shopping Centre, 59-61 Kinfauns Drive, Glasgow, G15 7TG ",
+A24-266,Night Shift,,,Van 2,Present,1,0,,"LCP Property, Drumchapel Shopping Centre, 59-61 Kinfauns Drive, Glasgow, G15 7TG ",
+A24-267,Day Shift,,,Van 1,Present,2,0,,"LCP Property LCP, Drumchapel Microshop (The Indoor Market), 12-14 Dunkenny Square, Drumchapel, G15 8NG ",
+A24-267,Night Shift,,,Van 2,Present,2,0,,"LCP Property LCP, Drumchapel Microshop (The Indoor Market), 12-14 Dunkenny Square, Drumchapel, G15 8NG ",
+A24-268,Day Shift,,,Van 1,Present,1,0,,"LCP Property, Behind Card Factory, 86 Main Street, Wishaw, ML2 7LU ",
+A24-268,Night Shift,,,Van 2,Present,1,0,,"LCP Property, Behind Card Factory, 86 Main Street, Wishaw, ML2 7LU ",
+A24-269,Day Shift,,,Van 1,Present,1,1,,"The Health and Social Care Alliance Scotland, 310 St Vincent Street, Glasgow, G2 5RU ",
+A24-269,Night Shift,,,Van 2,Present,1,1,,"The Health and Social Care Alliance Scotland, 310 St Vincent Street, Glasgow, G2 5RU ",
+A24-270,Day Shift,,,Van 1,Present,1,1,,"Peak Scientific, Cherry Tree House (HQ), 10 Fountain Crescent, Inchinnan, PA4 9RE ",
+A24-270,Night Shift,,,Van 2,Present,1,1,,"Peak Scientific, Cherry Tree House (HQ), 10 Fountain Crescent, Inchinnan, PA4 9RE ",
+A24-271,Day Shift,,,Van 1,Present,1,1,,"Peak Scientific, Rowan Tree House, 101 Fountain Crescent, Inchinnan, PA4 9RE ",
+A24-271,Night Shift,,,Van 2,Present,1,1,,"Peak Scientific, Rowan Tree House, 101 Fountain Crescent, Inchinnan, PA4 9RE ",
+A24-272,Day Shift,,,Van 1,Present,1,1,,"Peak Scientific, Cartside Warehouse, 2 Cartside Avenue, Inchinnan, PA4 9RX ",
+A24-272,Night Shift,,,Van 2,Present,1,1,,"Peak Scientific, Cartside Warehouse, 2 Cartside Avenue, Inchinnan, PA4 9RX ",
+A24-273,Day Shift,,,Van 1,Present,1,1,,"Peak Scientific, Block A, Kelburn Business Park, Port Glasgow, PA14 6BL ",
+A24-273,Night Shift,,,Van 2,Present,1,1,,"Peak Scientific, Block A, Kelburn Business Park, Port Glasgow, PA14 6BL ",
+A24-274,Day Shift,,,Van 1,Present,1,1,,"Peak Scientific, Block B, Units 2 & 3, Kelburn Business Park, Port Glasgow, PA14 6BL ",
+A24-274,Night Shift,,,Van 2,Present,1,1,,"Peak Scientific, Block B, Units 2 & 3, Kelburn Business Park, Port Glasgow, PA14 6BL ",
+A24-275,Day Shift,,,Van 1,Present,1,1,,"15 McFarlane Street, Paisley, PA3 1RY ",
+A24-275,Night Shift,,,Van 2,Present,1,1,,"15 McFarlane Street, Paisley, PA3 1RY ",
+A24-276,Day Shift,,,Van 1,Present,2,0,,"Flat 1, 24 Park Circus, Glasgow, G3 6AP ",
+A24-276,Night Shift,,,Van 2,Present,2,0,,"Flat 1, 24 Park Circus, Glasgow, G3 6AP ",
+A24-277,Day Shift,,,No Keys Held,Present,0,0,,"Ferguson Marine Stores, 2 Cartsdyke Avenue, James Watt Way, Greenock, PA15 1DT ",
+A24-277,Night Shift,,,No Keys Held,Present,0,0,,"Ferguson Marine Stores, 2 Cartsdyke Avenue, James Watt Way, Greenock, PA15 1DT ",
+A24-278,Day Shift,,,Van 1,Present,5,2,,"Clark Contracts, 23 McFarlane Street, Paisley, PA3 1RY (REF278)",
+A24-278,Night Shift,,,Van 2,Present,5,2,,"Clark Contracts, 23 McFarlane Street, Paisley, PA3 1RY (REF278)",
+A24-279,Day Shift,,,No Keys Held,Present,0,0,,"Anderson Anderson & Brown LLP (ABB Group), 133 Finnieston St, Glasgow, G3 8HB (REF279)",
+A24-279,Night Shift,,,No Keys Held,Present,0,0,,"Anderson Anderson & Brown LLP (ABB Group), 133 Finnieston St, Glasgow, G3 8HB (REF279)",
+A24-280,Day Shift,,,Van 1,Present,1,1,,"Paisley Housing Association, Assurance House 2 Lawn Street Paisley PA1 1HA (REF280)",
+A24-280,Night Shift,,,Van 2,Present,1,1,,"Paisley Housing Association, Assurance House 2 Lawn Street Paisley PA1 1HA (REF280)",
+A24-281,Day Shift,,,Van 1,Present,1,2,,"Calvay Housing Association Ltd, The Calvay Centre, 16 Calvay Rd, Glasgow, G33 4RE (REF281)",
+A24-281,Night Shift,,,Van 2,Present,1,2,,"Calvay Housing Association Ltd, The Calvay Centre, 16 Calvay Rd, Glasgow, G33 4RE (REF281)",
+A24-282,Day Shift,,,No Keys Held,Present,0,0,,"Thornliebank Resource Centre, Robslee Drive, Giffnock, Glasgow G46 7BA (REF282)",
+A24-282,Night Shift,,,No Keys Held,Present,0,0,,"Thornliebank Resource Centre, Robslee Drive, Giffnock, Glasgow G46 7BA (REF282)",
+A24-283,Day Shift,,,Van 1,Present,1,1,,"LCP Cambuslang Ltd, Unit 1-9, Cambuslang Gate, 31-45 Main Street, Cambuslang, G72 7HB ",
+A24-283,Night Shift,,,Van 2,Present,1,0,,"LCP Cambuslang Ltd, Unit 1-9, Cambuslang Gate, 31-45 Main Street, Cambuslang, G72 7HB ",
+A24-284,Day Shift,,,Van 1,Present,1,1,,"Includem, Unit 6000, Academy Office Park, Gower Street, Glasgow, G51 1PR (REF284)",
+A24-284,Night Shift,,,Van 2,Present,1,1,,"Includem, Unit 6000, Academy Office Park, Gower Street, Glasgow, G51 1PR (REF284)",
+A24-285,Day Shift,,,No Keys Held,Present,0,0,,"1 Napier Road, Glasgow, G51 2LQ ",
+A24-285,Night Shift,,,No Keys Held,Present,0,0,,"1 Napier Road, Glasgow, G51 2LQ ",
+A24-286,Day Shift,,,No Keys Held,Present,0,0,,"2 Napier Road, Glasgow, G51 2LQ ",
+A24-286,Night Shift,,,No Keys Held,Present,0,0,,"2 Napier Road, Glasgow, G51 2LQ ",
+A24-287,Day Shift,,,No Keys Held,Present,0,0,,"4 Napier Road, Glasgow, G51 2LG ",
+A24-287,Night Shift,,,No Keys Held,Present,0,0,,"4 Napier Road, Glasgow, G51 2LG ",
+A24-288,Day Shift,,,Van 1,Present,1,0,,"8 Water Row, Glasgow, G51 2LQ ",
+A24-288,Night Shift,,,Van 2,Present,2,0,,"8 Water Row, Glasgow, G51 2LQ ",
+A24-289,Night Shift,,,Van 2,Present,2,0,,"Bibby Financial Services, 1/1, 142 St. Vincent Street, Glasgow, G2 5LA ",
+A24-289,Day Shift,,,No Keys Held,Present,0,0,,"14 Water Row, Glasgow, G51 2LQ ",
+A24-289,Night Shift,,,No Keys Held,Present,0,0,,"14 Water Row, Glasgow, G51 2LQ ",
+A24-290,Day Shift,,,No Keys Held,Present,0,0,,"20 Water Row, Glasgow, G51 2LQ ",
+A24-290,Night Shift,,,No Keys Held,Present,0,0,,"20 Water Row, Glasgow, G51 2LQ ",
+A24-291,Day Shift,,,Van 1,Present,3,1,,"The Tower, 48 Cleveden Drive, Glasgow, G12 0NU ",
+A24-291,Night Shift,,,No Keys Held,Present,0,0,,"The Tower, 48 Cleveden Drive, Glasgow, G12 0NU ",
+A24-292,Day Shift,,,Van 1,Present,7,1,,"Houston Bottling & Co-Pack, Vale of Leven Industrial Estate, Block 6, Dumbarton, G82 3PD ",
+A24-292,Night Shift,,,Van 2,Present,7,1,,"Houston Bottling & Co-Pack, Vale of Leven Industrial Estate, Block 6, Dumbarton, G82 3PD",
+A24-293,Day Shift,,,Van 1,Present,2,0,,"132 West Nile St, Glasgow, G12RQ",
+A24-293,Night Shift,,,Van 2,Present,2,0,,"132 West Nile St, Glasgow, G12RQ",
+A24-295,Day Shift,,,No Keys Held,Present,0,0,,"Scotsman Group PLC, Elmbank Development, External Pods, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295,Night Shift,,,No Keys Held,Present,0,0,,"Scotsman Group PLC, Elmbank Development, External Pods, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-1,Day Shift,,,Van 1,Present,2,1,,"Scotsman Group PLC, Elmbank Development, Elmbank House 5, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-1,Night Shift,,,Van 2,Present,2,1,,"Scotsman Group PLC, Elmbank Development, Elmbank House 5, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-2,Day Shift,,,Van 1,Present,3,1,,"Scotsman Group PLC, Elmbank Development, Elmbank House 6, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-2,Night Shift,,,Van 2,Present,3,1,,"Scotsman Group PLC, Elmbank Development, Elmbank House 6, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-3,Day Shift,,,Van 1,Present,2,0,,"Scotsman Group PLC, Elmbank Development, Elmbank House 7, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-3,Night Shift,,,Van 2,Present,2,0,,"Scotsman Group PLC, Elmbank Development, Elmbank House 7, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-4,Day Shift,,,Van 1,Present,2,0,,"Scotsman Group PLC, Elmbank Development, Elmbank House 8, 10 Elmbank Street, Glasgow, G2 4DL",
+A24-295-4,Night Shift,,,Van 2,Present,2,1,,"Scotsman Group PLC, Elmbank Development, Elmbank House 8, 10 Elmbank Street, Glasgow, G2 4DL",
+A24-295-5,Day Shift,,,Van 1,Present,2,1,,"Scotsman Group PLC, Elmbank Development, Elmbank House 9, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-5,Night Shift,,,Van 2,Present,2,1,,"Scotsman Group PLC, Elmbank Development, Elmbank House 9, 10 Elmbank Street, Glasgow, G2 4DL",
+A24-295-6,Day Shift,,,Van 1,Present,2,0,,"Scotsman Group PLC, Elmbank Development, Elmbank House 10, 10 Elmbank Street, Glasgow, G2 4DL ",
+A24-295-6,Night Shift,,,Van 2,Present,2,0,,"Scotsman Group PLC, Elmbank Development, Elmbank House 10, 10 Elmbank Street, Glasgow, G2 4DL",
+A24-296,Day Shift,,,Van 1,Present,1,0,,"Scottish Friendly, Galbraith House, 16 Blythswood Square, Glasgow, G2 4HJ",
+A24-296,Night Shift,,,Van 2,Present,1,1,,"Scottish Friendly, Galbraith House, 16 Blythswood Square, Glasgow, G2 4HJ",
+A24-300,Day Shift,,,Van 1,Present,2,1,,West Dumbartonshire Schools Master Key,
+A24-300,Night Shift,,,Van 2,Present,2,1,,West Dumbartonshire Schools Master Key,
+A24-300-1,Day Shift,,,Van 1,Present,1,0,,"St Peter the Apostle High School, 30 Kirkoswald Drive, Clydebank G81 2DB",
+A24-300-1,Night Shift,,,Van 2,Present,1,0,,"St Peter the Apostle High School, 30 Kirkoswald Drive, Clydebank G81 2DB",
+A24-300-2,Day Shift,,,Van 1,Present,2,0,,"Vale of Leven High School Main Street, Alexandria G83 0BH",
+A24-300-2,Night Shift,,,Van 2,Present,2,0,,"Vale of Leven High School Main Street, Alexandria G83 0BH ",
+A24-300-3,Day Shift,,,Van 1,Present,1,0,,"Clydebank High School, 46 Janetta Street, West Dunbartonshire Council G81 3EJ",
+A24-300-3,Night Shift,,,Van 2,Present,1,0,,"Clydebank High School, 46 Janetta Street, West Dunbartonshire Council G81 3EJ ",
+A24-300-4,Day Shift,,,Van 1,Present,1,0,,"St Eunans Primary School Gilmour Street, Clydebank G81 2BW",
+A24-300-4,Night Shift,,,Van 2,Present,1,0,,"St Eunans Primary School Gilmour Street, Clydebank G81 2BW",
+A24-301,Day Shift,,,Van 1,Present,4,1,,"Aberlour Childcare Trust, Cambridge House, 8 Cambridge Street, Glasgow, G2 3DZ",
+A24-301,Night Shift,,,Van 2,Present,4,1,,"Aberlour Childcare Trust, Cambridge House, 8 Cambridge Street, Glasgow, G2 3DZ ",
+A24-302,Day Shift,,,Van 1,Present,0,0,,"GallifordTry, 2nd Floor, Rowan House, 1 Robroyston Oval, Glasgow, G33 1AP",
+A24-302,Night Shift,,,Van 2,Present,0,0,,"GallifordTry, 2nd Floor, Rowan House, 1 Robroyston Oval, Glasgow, G33 1AP",
+A24-303,Day Shift,,,Van 1,Present,1,1,,"Flowplant Group Ltd, Unit 4, Eglington Trading Estate, G5 9QJ",
+A24-303,Night Shift,,,Van 2,Present,1,1,,"Flowplant Group Ltd, Unit 4, Eglington Trading Estate, G5 9QJ",
+A24-304,Day Shift,,,Van 1,Present,0,0,,"Right There, Unit E2, Rosemount Business Park, 145 Charles Street, Royston, G21 2QA",
+A24-304,Night Shift,,,Van 2,Present,0,0,,"Right There, Unit E2, Rosemount Business Park, 145 Charles Street, Royston, G21 2QA ",
+A24-305,Day Shift,,,Van 1,Present,0,0,,"Health Innovation Hub, Linthouse Rd, Glasgow, G51 4RY ",
+A24-305,Night Shift,,,Van 2,Present,0,0,,"Health Innovation Hub, Linthouse Rd, Glasgow, G51 4RY ",
+A24-306,Day Shift,,,Van 1,Present,3,0,,"116 West Regent St, Glasgow, G2 2QD",
+A24-306,Night Shift,,,Van 2,Present,3,0,,"116 West Regent St, Glasgow, G2 2QD",
+A24-307,Day Shift,,,Van 1,Present,3,0,,"Airbles House, Airbles Road, Motherwell ML1 3AT",
+A24-307,Night Shift,,,Van 2,Present,3,0,,"Airbles House, Airbles Road, Motherwell ML1 3AT ",
+A24-308,Day Shift,,,Van 1,Present,1,0,,"RSK Richard Irvin Office & Brushworks Climbing Gym, 74 Black Street, Glasgow, G4 0EF",
+A24-308,Night Shift,,,Van 2,Present,2,0,,"RSK Richard Irvin Office & Brushworks Climbing Gym, 74 Black Street, Glasgow, G4 0EF",
+A24-309,Day Shift,,,No Keys Held,Present,0,0,,"Laings, 46-50 Argyll Arcade, Buchanan Street, G2 8BG",
+A24-309,Night Shift,,,No Keys Held,Present,0,0,,"Laings, 46-50 Argyll Arcade, Buchanan Street, G2 8BG",
+A24-310,Day Shift,,,No Keys Held,Present,0,0,,"Laings Head Office, Rowan House, 70 Buchanan Street, Glasgow, G1 3JE",
+A24-310,Night Shift,,,No Keys Held,Present,0,0,,"Laings Head Office, Rowan House, 70 Buchanan Street, Glasgow, G1 3JE",
+A24-311,Day Shift,,,No Keys Held,Present,0,0,,"Laings (Retail), Rowan House, 70 Buchanan Street, G1 3JE",
+A24-311,Night Shift,,,No Keys Held,Present,0,0,,"Laings (Retail), Rowan House, 70 Buchanan Street, G1 3JE",
+A24-312,Day Shift,,,No Keys Held,Present,0,0,,"TAG Heuer, 120 Buchanan Street, Glasgow, G1 2JW",
+A24-312,Night Shift,,,No Keys Held,Present,0,0,,"TAG Heuer, 120 Buchanan Street, Glasgow, G1 2JW",
