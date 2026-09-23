@@ -4,3 +4,12 @@ dist
 server/public
 vite.config.ts.*
 *.tar.gz
+.env
+.env.*
+!.env.example
+*.sql
+*.sql.gz
+*.dump
+*.backup
+*_cookies.txt
+cookies.txt
