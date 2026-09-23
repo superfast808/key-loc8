@@ -158,14 +158,20 @@ export async function registerRoutes(app: Express): Promise<Server> {
     ttl: SESSION_DURATION / 1000, // connect-pg-simple expects seconds
   });
 
+  const sessionSecret = process.env.SESSION_SECRET;
+  if (!sessionSecret && process.env.NODE_ENV === "production") {
+    throw new Error("SESSION_SECRET must be set in production");
+  }
+
   app.use(session({
-    secret: process.env.SESSION_SECRET || 'demo-key-management-secret',
+    secret: sessionSecret || "demo-key-management-secret",
     store: sessionStore,
     resave: false,
     saveUninitialized: false,
     cookie: {
       httpOnly: true,
-      secure: false, // Set to true in production with HTTPS
+      secure: process.env.NODE_ENV === "production" && process.env.SESSION_COOKIE_SECURE !== "false",
+      sameSite: "lax",
       maxAge: SESSION_DURATION
     }
   }));
