@@ -4,6 +4,15 @@ import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 
 const app = express();
+// Plesk terminates HTTPS in front of the container. Trust its proxy headers so
+// Express can correctly determine the original protocol/client connection.
+app.set("trust proxy", 1);
+
+// Lightweight liveness endpoint for Docker health checks and reverse-proxy tests.
+app.get("/api/health", (_req, res) => {
+  res.status(200).json({ status: "ok" });
+});
+
 app.use(compression());
 app.use(express.json({ limit: '100mb' }));
 app.use(express.urlencoded({ extended: false }));
@@ -87,14 +96,16 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // ALWAYS serve the app on port 5000
-  // this serves both the API and the client.
-  // It is the only port that is not firewalled.
-  const port = 5000;
+  // The container listens internally on PORT (5000 by default). Docker/Plesk
+  // maps that to whichever host port is selected in docker-compose.yml.
+  const port = Number.parseInt(process.env.PORT || "5000", 10);
+  if (!Number.isInteger(port) || port < 1 || port > 65535) {
+    throw new Error(`Invalid PORT value: ${process.env.PORT}`);
+  }
+
   server.listen({
     port,
     host: "0.0.0.0",
-    reusePort: true,
   }, () => {
     log(`serving on port ${port}`);
   });
