@@ -19,3 +19,8 @@ cache/
 tmp/
 temp/
 storage/logs/
+*.sql.gz
+*.backup
+*_cookies.txt
+db-dumps/
+backups/
