@@ -362,6 +362,7 @@ const Landing = () => {
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
             <p>&copy; 2025 keylocate. All rights reserved.</p>
+            <a href="https://itexpertayrshire.co.uk" target="_blank" rel="noopener noreferrer" className="inline-block mt-2 hover:text-white transition-colors">Website by IT Expert Ayrshire</a>
           </div>
         </div>
       </footer>
