@@ -115,7 +115,7 @@ function Router() {
         <Route path="/settings" component={Settings} />
         <Route path="/profile" component={Profile} />
         <Route path="/help" component={Help} />
-        <Route path="/platform-admin" component={PlatformAdmin} />
+        <Route path="/platform-admin" component={isPlatformAdmin ? PlatformAdmin : NotFound} />
         <Route path="/lone-working/check-in" component={() => <SectionGuard section="lone_working" component={LoneWorkingCheckIn} />} />
         <Route path="/lone-working/active" component={() => <SectionGuard section="lone_working" component={LoneWorkingActiveSession} />} />
         <Route path="/lone-working" component={() => <SectionGuard section="lone_working" component={LoneWorking} />} />
