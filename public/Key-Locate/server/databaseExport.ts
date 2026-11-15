@@ -1,6 +1,9 @@
 import { spawn } from "node:child_process";
 import type { Response } from "express";
 
+// Avoid running multiple resource-intensive full backups concurrently.
+let exportInProgress = false;
+
 /**
  * Stream a PostgreSQL 16 custom-format archive directly to the administrator.
  * Nothing is written to the application filesystem or stored in Git.
@@ -10,6 +13,11 @@ import type { Response } from "express";
  * archive does not transplant authenticated browser sessions.
  */
 export function streamDatabaseExport(res: Response, adminUserId: number): void {
+  if (exportInProgress) {
+    res.status(429).json({ message: "A database export is already running. Try again when it finishes." });
+    return;
+  }
+
   let connection: URL;
   try {
     connection = new URL(process.env.DATABASE_URL || "");
@@ -43,6 +51,7 @@ export function streamDatabaseExport(res: Response, adminUserId: number): void {
   ];
 
   // Never put the database URL/password in the command arguments or logs.
+  exportInProgress = true;
   const dump = spawn("pg_dump", args, {
     env: environment,
     stdio: ["ignore", "pipe", "pipe"],
@@ -78,6 +87,7 @@ export function streamDatabaseExport(res: Response, adminUserId: number): void {
   });
 
   dump.on("error", (error: Error) => {
+    exportInProgress = false;
     console.error(`[DB-EXPORT] Cannot run pg_dump for admin ${adminUserId}: ${(error as NodeJS.ErrnoException).code || "unknown error"}`);
     if (!res.destroyed && !res.headersSent) {
       res.status(503).json({ message: "Database export is unavailable (pg_dump could not start)" });
@@ -88,6 +98,7 @@ export function streamDatabaseExport(res: Response, adminUserId: number): void {
 
   dump.on("close", (code) => {
     completed = true;
+    exportInProgress = false;
     if (res.destroyed || res.writableEnded) return;
     if (code === 0) {
       if (!res.headersSent) {
