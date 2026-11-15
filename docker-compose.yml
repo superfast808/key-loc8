@@ -55,5 +55,20 @@ services:
       start_period: 20s
       retries: 3
 
+  # One-off job used by scripts/deploy.sh when shared/schema.ts changes.
+  # Not started by "docker compose up" (it is in the "tools" profile).
+  migrate:
+    profiles: ["tools"]
+    build:
+      context: ./public/Key-Locate
+      dockerfile: Dockerfile
+      target: build
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: "postgresql://${POSTGRES_USER:-keyloc8}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-keyloc8}"
+    command: ["npx", "drizzle-kit", "push"]
+
 volumes:
   keyloc8_postgres:

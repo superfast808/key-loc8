@@ -1,0 +1,48 @@
+# Deploys to the Plesk server whenever main changes (e.g. a pull request is merged).
+# Can also be run by hand from the Actions tab ("Run workflow").
+#
+# Repository secrets needed (Settings > Secrets and variables > Actions):
+#   DEPLOY_HOST     server address, e.g. 123.45.67.89
+#   DEPLOY_USER     SSH user that can run docker (often root)
+#   DEPLOY_SSH_KEY  private SSH key for that user (whole file, including BEGIN/END lines)
+#   DEPLOY_PATH     folder on the server holding this repo, e.g. /opt/key-loc8
+#   DEPLOY_PORT     optional, SSH port if it is not 22
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - name: Set up SSH key
+        env:
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+
+      - name: Pull, rebuild and restart on the server
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            -p "${DEPLOY_PORT:-22}" \
+            -o StrictHostKeyChecking=accept-new \
+            -o ServerAliveInterval=30 \
+            "$DEPLOY_USER@$DEPLOY_HOST" \
+            "cd '$DEPLOY_PATH' && git fetch origin main && git show origin/main:scripts/deploy.sh > /tmp/key-loc8-deploy.sh && bash /tmp/key-loc8-deploy.sh"
