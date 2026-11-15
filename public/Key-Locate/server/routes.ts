@@ -4,6 +4,7 @@ import { registerLoneWorkingRoutes, startAlertChecker } from "./loneWorkingRoute
 import { registerUniformRoutes } from "./uniformRoutes";
 import { startDeputySync, runDeputySync } from "./deputySync";
 import { createCompanyBackup, listCompanyBackups, getBackup, startBackupScheduler } from "./backupService";
+import { streamDatabaseExport } from "./databaseExport";
 import { createServer, type Server } from "http";
 import { z } from "zod";
 import crypto from "crypto";
@@ -3454,6 +3455,13 @@ Answer questions clearly and concisely. If you're not sure about something speci
       }
       res.json({ success: true });
     } catch (e: any) { res.status(500).json({ message: e.message }); }
+  });
+
+  // Full PostgreSQL database archive, including schema and all companies.
+  // Only a platform-level super administrator may download the entire database.
+  // Session rows are excluded, and the dump is streamed without being saved.
+  app.get("/api/platform/database/export", requireAuth, requirePlatformAdmin, (req: any, res: Response) => {
+    streamDatabaseExport(res, req.user.id);
   });
 
   // ─── Company Backups (Platform Admin only) ───────────────────────────────────
