@@ -269,6 +269,39 @@ export default function PlatformAdmin() {
         </Card>
       </div>
 
+      {/* Entire PostgreSQL database (all companies) — platform admins only */}
+      <Card>
+        <CardHeader className="pb-3">
+          <CardTitle className="text-base flex items-center gap-2">
+            <DatabaseBackup className="h-5 w-5 text-gray-600" />
+            Full Database Export
+          </CardTitle>
+          <CardDescription>
+            Download a PostgreSQL 16 archive containing the schema and data for every company.
+            Unlike the per-company JSON snapshots below, this can be restored with pg_restore.
+          </CardDescription>
+        </CardHeader>
+        <CardContent className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <p className="text-sm text-gray-600 max-w-xl">
+            This is a sensitive backup containing user records and other personal data.
+            Active login sessions are excluded. Store it securely and never commit it to Git.
+          </p>
+          <Button asChild variant="outline" className="shrink-0">
+            <a
+              href="/api/platform/database/export"
+              onClick={(event) => {
+                if (!window.confirm("Export the entire Key-Loc8 database, including all companies and user data? Keep the downloaded file secure.")) {
+                  event.preventDefault();
+                }
+              }}
+            >
+              <Download className="h-4 w-4 mr-2" />
+              Export Database (.dump)
+            </a>
+          </Button>
+        </CardContent>
+      </Card>
+
       {/* Module legend */}
       <Card>
         <CardHeader>
