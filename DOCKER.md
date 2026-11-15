@@ -87,6 +87,33 @@ Because login session data is excluded, users must sign in again after a
 restore. The export button appears only in platform administration; the API
 endpoint checks the same role server-side.
 
+## Full database export over SSH (no GUI)
+
+From the repository root on the host:
+
+```bash
+bash scripts/export-database.sh
+```
+
+This runs `pg_dump` **inside the PostgreSQL Docker Compose service**, so no
+`pg_dump` installation or database password is needed on the host.
+It produces a timestamped, PostgreSQL custom-format archive containing the
+application database (schema and all companies' data, excluding live session
+rows), verifies its table of contents, then atomically moves it into
+`/var/backups/keyloc8/`. The script does not stop the site, restore anything,
+or prune old backups.
+
+To select a different destination:
+
+```bash
+BACKUP_DIR="$HOME/keyloc8-backups" bash scripts/export-database.sh
+```
+
+A failed export removes its temporary file; the script exits non-zero, making
+it suitable for cron/monitoring. A successful archive is readable only to the
+account running the script. Store an encrypted copy **off the server** for
+disaster recovery, and periodically test restoring into a disposable database.
+
 ## Important
 
 Do not commit `.env`, database dumps, SQL exports, backups, API keys, session secrets, or production cookie files. The repository ignore rules cover the common dump/archive extensions, but production data should be transferred directly to the server.
