@@ -77,8 +77,8 @@ export function streamDatabaseExport(res: Response, adminUserId: number): void {
     if (!completed) dump.kill("SIGTERM");
   });
 
-  dump.on("error", (error: NodeJS.ErrnoException) => {
-    console.error(`[DB-EXPORT] Cannot run pg_dump for admin ${adminUserId}: ${error.code || "unknown error"}`);
+  dump.on("error", (error: Error) => {
+    console.error(`[DB-EXPORT] Cannot run pg_dump for admin ${adminUserId}: ${(error as NodeJS.ErrnoException).code || "unknown error"}`);
     if (!res.destroyed && !res.headersSent) {
       res.status(503).json({ message: "Database export is unavailable (pg_dump could not start)" });
     } else if (!res.destroyed) {
